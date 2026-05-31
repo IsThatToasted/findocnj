@@ -67,3 +67,12 @@ checklistInputs.forEach((input, index) => {
     localStorage.setItem('ocnjChecklist', JSON.stringify(states));
   });
 });
+
+document.addEventListener('DOMContentLoaded',()=>{
+const solo=document.getElementById('soloBtn');
+const fam=document.getElementById('familyBtn');
+if(solo){
+solo.addEventListener('click',()=>alert('Solo/Couples planner version coming next update. This toggle is now visible and ready for separate itinerary data.'));
+fam.addEventListener('click',()=>{});
+}
+});
