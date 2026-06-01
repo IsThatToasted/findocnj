@@ -1,24 +1,30 @@
-# OCNJ Complete Smart Planner
+# OCNJ Complete Smart Planner V6
 
-A full static web app for planning Ocean City, NJ trips.
+Static GitHub Pages-compatible planner with:
 
-## Features
 - Family and solo/couples modes
-- Sunny, cloudy, and rainy weather plans
-- Editable time slots with auto-shifting
-- Activity swap dropdowns
-- Hours/conflict warnings
-- LocalStorage autosave
-- Favorites
-- Build My Day generator
-- Activity library and restaurant finder
-- Budget tracker and gas calculator
-- Parking, restroom, beach tag, and map helper links
-- Autosaved packing checklist
-- Mobile-first bottom nav
+- Sunny/cloudy/rainy planner presets
+- Editable time slots and durations
+- Auto-repair scheduling that avoids recommending activities outside editable planning windows
+- Activity hours stored in `data/hours.json`
+- Admin hours dashboard at `admin.html`
+- LocalStorage persistence for trip edits and local admin hours overrides
+- Activity library, food finder, budget tracker, gas calculator, packing checklist, and print/PDF support
 
-## Deploy
-Upload the full folder to GitHub Pages, Netlify, Vercel, or your static web host. Do not upload only index.html; the app needs css/, js/, and data/ folders.
+## Important GitHub Pages note
 
-## Future DB Upgrade
-Replace localStorage in js/storage.js with Supabase/Firebase calls. The app state is already centralized for easier migration.
+GitHub Pages is static hosting. Browser code cannot directly write changes back into `data/hours.json`.
+
+To update hours without a backend:
+
+1. Open `admin.html`.
+2. Edit activity open/close/best-start/duration/buffer values.
+3. Click **Save local override** to test on that device.
+4. Click **Export hours.json**.
+5. Replace `data/hours.json` in the repo with the exported file and commit/push.
+
+Future upgrade path: Supabase/Firebase admin table for live shared edits, user accounts, and synced itineraries.
+
+## Hours behavior
+
+The planner no longer displays warning banners. Instead, it uses open/close/buffer values to avoid choosing poor activity times in the first place. Important activities use a larger close buffer so they are not suggested too close to closing.

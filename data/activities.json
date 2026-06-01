@@ -31,7 +31,15 @@
         "12th St Beach map",
         "https://www.google.com/maps/search/12th+Street+Beach+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.ocnj.us/beachtags",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "boardwalk_bikes",
@@ -65,7 +73,15 @@
         "Bike rentals map",
         "https://www.google.com/maps/search/Ocean+City+NJ+boardwalk+bike+rental"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "OCNJ Biking Info",
+      "url": "https://oceancityvacation.com/what-to-do/biking/",
+      "note": "Summer boardwalk biking is treated as a morning activity."
+    }
   },
   {
     "id": "playland",
@@ -83,7 +99,7 @@
       "solo"
     ],
     "open": "18:00",
-    "close": "22:00",
+    "close": "22:30",
     "bestStart": "18:30",
     "tags": [
       "rides",
@@ -103,7 +119,15 @@
         "Map",
         "https://www.google.com/maps/search/Playland's+Castaway+Cove+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Playland Hours",
+      "url": "https://oceancityfun.com/hours/",
+      "note": "Official Playland calendar is date-specific; these are summer planning defaults."
+    }
   },
   {
     "id": "dolphin_cruise",
@@ -137,7 +161,15 @@
         "Boating info",
         "https://oceancityvacation.com/things-to-do/activities/boating-marinas/"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Ocean+City+NJ+dolphin+cruise",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "mini_golf",
@@ -168,7 +200,15 @@
         "Mini golf map",
         "https://www.google.com/maps/search/mini+golf+Ocean+City+NJ+boardwalk"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/mini+golf+Ocean+City+NJ+boardwalk",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "arcade",
@@ -199,7 +239,15 @@
         "Arcades map",
         "https://www.google.com/maps/search/Ocean+City+NJ+arcade"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Ocean+City+NJ+arcade",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "zoo",
@@ -238,7 +286,15 @@
         "Map",
         "https://www.google.com/maps/search/Cape+May+County+Park+%26+Zoo"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Cape May County Zoo Plan Your Visit",
+      "url": "https://capemaycountynj.gov/1148/Plan-Your-Visit",
+      "note": "Official page lists Summer Zoo Hours 10:00 AM\u20134:30 PM."
+    }
   },
   {
     "id": "cape_lighthouse",
@@ -272,7 +328,15 @@
         "Map",
         "https://www.google.com/maps/search/Cape+May+Lighthouse"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Cape May MAC Lighthouse",
+      "url": "https://capemaymac.org/experience/cape-may-lighthouse/",
+      "note": "Seasonal hours vary; confirm before leaving."
+    }
   },
   {
     "id": "corsons",
@@ -306,7 +370,15 @@
         "Map",
         "https://www.google.com/maps/search/Corson's+Inlet+State+Park+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "NJDEP Corson\u2019s Inlet",
+      "url": "https://dep.nj.gov/parksandforests/state-park/corsons-inlet-state-park/",
+      "note": "State park outdoor planning window."
+    }
   },
   {
     "id": "lucy",
@@ -341,7 +413,15 @@
         "Map",
         "https://www.google.com/maps/search/Lucy+the+Elephant+Margate+NJ"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Lucy Visiting + Hours",
+      "url": "https://lucytheelephant.org/visiting/",
+      "note": "Official page says hours can change and recommends confirming."
+    }
   },
   {
     "id": "music_pier",
@@ -376,7 +456,15 @@
         "Summer concerts",
         "https://www.ocnj.us/SummerConcertSeries"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Ocean City Music Pier",
+      "url": "https://www.ocnj.us/music-pier",
+      "note": "Event times vary; used only as planning window."
+    }
   },
   {
     "id": "downtown",
@@ -407,7 +495,15 @@
         "Downtown map",
         "https://www.google.com/maps/search/Asbury+Avenue+Ocean+City+NJ+shopping"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Asbury+Avenue+Ocean+City+NJ+shopping",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "ac_evening",
@@ -437,7 +533,15 @@
         "Directions",
         "https://www.google.com/maps/dir/Ocean+City,+NJ/Atlantic+City+Boardwalk"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/dir/Ocean+City,+NJ/Atlantic+City+Boardwalk",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "sunset_cruise",
@@ -466,7 +570,15 @@
         "Cruise options",
         "https://www.google.com/maps/search/Ocean+City+NJ+sunset+cruise"
       ]
-    ]
+    ],
+    "important": true,
+    "closeBufferMin": 45,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Ocean+City+NJ+sunset+cruise",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "quiet_beach_sunrise",
@@ -497,7 +609,15 @@
         "Beach map",
         "https://www.google.com/maps/search/Ocean+City+NJ+beach"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Ocean+City+NJ+beach",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "rainy_restaurant",
@@ -528,7 +648,15 @@
         "Restaurants map",
         "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "quick_lunch",
@@ -563,7 +691,15 @@
         "Pizza alternatives",
         "https://www.google.com/maps/search/pizza+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "pool_reset",
@@ -594,7 +730,15 @@
         "Nearby coffee/snacks",
         "https://www.google.com/maps/search/coffee+snacks+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/coffee+snacks+Ocean+City+NJ",
+      "note": "Editable planning default."
+    }
   },
   {
     "id": "food_pizza_alt",
@@ -633,6 +777,14 @@
         "Family restaurants",
         "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ"
       ]
-    ]
+    ],
+    "important": false,
+    "closeBufferMin": 15,
+    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "hoursSource": {
+      "label": "Planning default",
+      "url": "https://www.google.com/maps/search/Manco+%26+Manco+Pizza+Ocean+City+NJ",
+      "note": "Editable planning default."
+    }
   }
 ]

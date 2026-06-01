@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "note": "Static GitHub Pages cannot write to this file directly. Use admin.html to edit locally, export hours.json, then commit it to GitHub.",
+  "activities": [
+    {
+      "id": "beach_morning",
+      "name": "Morning Beach Block",
+      "open": "06:00",
+      "close": "20:00",
+      "bestStart": "08:30",
+      "duration": 120,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.ocnj.us/beachtags",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "boardwalk_bikes",
+      "name": "Boardwalk Bike / Surrey Ride",
+      "open": "05:00",
+      "close": "12:00",
+      "bestStart": "07:45",
+      "duration": 75,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "OCNJ Biking Info",
+        "url": "https://oceancityvacation.com/what-to-do/biking/",
+        "note": "Summer boardwalk biking is treated as a morning activity."
+      }
+    },
+    {
+      "id": "playland",
+      "name": "Playland's Castaway Cove",
+      "open": "18:00",
+      "close": "22:30",
+      "bestStart": "18:30",
+      "duration": 120,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Playland Hours",
+        "url": "https://oceancityfun.com/hours/",
+        "note": "Official Playland calendar is date-specific; these are summer planning defaults."
+      }
+    },
+    {
+      "id": "dolphin_cruise",
+      "name": "Dolphin Cruise / Bay Boat Ride",
+      "open": "09:00",
+      "close": "18:00",
+      "bestStart": "10:45",
+      "duration": 105,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Ocean+City+NJ+dolphin+cruise",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "mini_golf",
+      "name": "Boardwalk Mini Golf",
+      "open": "10:00",
+      "close": "23:00",
+      "bestStart": "19:00",
+      "duration": 75,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/mini+golf+Ocean+City+NJ+boardwalk",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "arcade",
+      "name": "Boardwalk Arcade Route",
+      "open": "10:00",
+      "close": "23:00",
+      "bestStart": "16:00",
+      "duration": 60,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Ocean+City+NJ+arcade",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "zoo",
+      "name": "Cape May County Park & Zoo",
+      "open": "10:00",
+      "close": "16:30",
+      "bestStart": "10:00",
+      "duration": 150,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Cape May County Zoo Plan Your Visit",
+        "url": "https://capemaycountynj.gov/1148/Plan-Your-Visit",
+        "note": "Official page lists Summer Zoo Hours 10:00 AM\u20134:30 PM."
+      }
+    },
+    {
+      "id": "cape_lighthouse",
+      "name": "Cape May Lighthouse Area",
+      "open": "10:00",
+      "close": "17:00",
+      "bestStart": "13:30",
+      "duration": 90,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Cape May MAC Lighthouse",
+        "url": "https://capemaymac.org/experience/cape-may-lighthouse/",
+        "note": "Seasonal hours vary; confirm before leaving."
+      }
+    },
+    {
+      "id": "corsons",
+      "name": "Corson's Inlet State Park",
+      "open": "06:00",
+      "close": "20:00",
+      "bestStart": "08:30",
+      "duration": 75,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "NJDEP Corson\u2019s Inlet",
+        "url": "https://dep.nj.gov/parksandforests/state-park/corsons-inlet-state-park/",
+        "note": "State park outdoor planning window."
+      }
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy the Elephant",
+      "open": "10:00",
+      "close": "17:00",
+      "bestStart": "10:00",
+      "duration": 75,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Lucy Visiting + Hours",
+        "url": "https://lucytheelephant.org/visiting/",
+        "note": "Official page says hours can change and recommends confirming."
+      }
+    },
+    {
+      "id": "music_pier",
+      "name": "Music Pier / Summer Show",
+      "open": "18:00",
+      "close": "22:00",
+      "bestStart": "19:00",
+      "duration": 120,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Ocean City Music Pier",
+        "url": "https://www.ocnj.us/music-pier",
+        "note": "Event times vary; used only as planning window."
+      }
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown Asbury Shopping + Treats",
+      "open": "10:00",
+      "close": "20:00",
+      "bestStart": "15:30",
+      "duration": 90,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Asbury+Avenue+Ocean+City+NJ+shopping",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "ac_evening",
+      "name": "Atlantic City Evening Option",
+      "open": "12:00",
+      "close": "23:59",
+      "bestStart": "20:00",
+      "duration": 180,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/dir/Ocean+City,+NJ/Atlantic+City+Boardwalk",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "sunset_cruise",
+      "name": "Sunset Cruise / Bay Photos",
+      "open": "17:00",
+      "close": "21:00",
+      "bestStart": "18:30",
+      "duration": 120,
+      "important": true,
+      "closeBufferMin": 45,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Ocean+City+NJ+sunset+cruise",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "quiet_beach_sunrise",
+      "name": "Sunrise Beach Walk",
+      "open": "05:30",
+      "close": "20:00",
+      "bestStart": "06:00",
+      "duration": 60,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Ocean+City+NJ+beach",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "rainy_restaurant",
+      "name": "Indoor Restaurant / Long Meal",
+      "open": "11:00",
+      "close": "21:00",
+      "bestStart": "12:00",
+      "duration": 90,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "quick_lunch",
+      "name": "Quick Lunch / Snack Reset",
+      "open": "10:30",
+      "close": "21:00",
+      "bestStart": "12:00",
+      "duration": 60,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/family+restaurants+Ocean+City+NJ",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "pool_reset",
+      "name": "Pool / AC / Nap Reset",
+      "open": "11:00",
+      "close": "18:00",
+      "bestStart": "13:00",
+      "duration": 120,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/coffee+snacks+Ocean+City+NJ",
+        "note": "Editable planning default."
+      }
+    },
+    {
+      "id": "food_pizza_alt",
+      "name": "Pizza / Easy Dinner Options",
+      "open": "11:00",
+      "close": "22:00",
+      "bestStart": "17:30",
+      "duration": 75,
+      "important": false,
+      "closeBufferMin": 15,
+      "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+      "hoursSource": {
+        "label": "Planning default",
+        "url": "https://www.google.com/maps/search/Manco+%26+Manco+Pizza+Ocean+City+NJ",
+        "note": "Editable planning default."
+      }
+    }
+  ]
+}

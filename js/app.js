@@ -3,12 +3,16 @@ import {Planner} from './planner.js';
 import {fmtRange,money,uid} from './utils.js';
 
 const $=s=>document.querySelector(s); const $$=s=>[...document.querySelectorAll(s)];
-const [activities,restaurants,packing,plans]=await Promise.all([
+const [activitiesRaw, restaurants, packing, plans, hoursData]=await Promise.all([
  fetch('data/activities.json').then(r=>r.json()),
  fetch('data/restaurants.json').then(r=>r.json()),
  fetch('data/packing.json').then(r=>r.json()),
- fetch('data/defaultPlans.json').then(r=>r.json())
+ fetch('data/defaultPlans.json').then(r=>r.json()),
+ fetch('data/hours.json').then(r=>r.json()).catch(()=>({activities:[]}))
 ]);
+const localHours=JSON.parse(localStorage.getItem('ocnjHoursOverrideV1')||'{}');
+const hoursById=Object.fromEntries([...(hoursData.activities||[]).map(h=>[h.id,h]), ...Object.values(localHours).map(h=>[h.id,h])]);
+const activities=activitiesRaw.map(a=>({...a, ...(hoursById[a.id]||{})}));
 let state=loadState();
 state.favorites ||= [];
 state.expenses ||= [{id:uid(),name:'Souvenirs / treats',amount:75}];
@@ -48,8 +52,8 @@ function renderTimeline(){
   const dur=card.querySelector('.duration-input'); dur.value=block.duration; dur.onchange=e=>planner.updateBlock(block.id,{duration:Number(e.target.value)||60},true);
   const select=card.querySelector('.activity-select'); select.innerHTML=activities.filter(x=>x.modes.includes(state.mode)).map(x=>`<option value="${x.id}">${x.name}</option>`).join(''); select.value=block.activity; select.onchange=e=>planner.updateBlock(block.id,{activity:e.target.value},false);
   card.querySelector('.activity-title').textContent=a?.name||'Unknown activity'; card.querySelector('.activity-desc').textContent=a?.desc||'';
-  const conflicts=planner.conflicts(block); const box=card.querySelector('.conflict-box'); if(conflicts.length){box.className='conflict-box '+(conflicts.some(c=>c.type==='bad')?'bad':'warn');box.textContent='⚠️ '+conflicts.map(c=>c.text).join(' ')}
-  card.querySelector('.meta-chips').innerHTML=[...(a?.weather||[]),...(a?.modes||[]),...(a?.tags||[]).slice(0,3)].map(t=>`<span class="chip ${t}">${t}</span>`).join('')+`<span class="chip">${money(a?.cost||0)}</span>`;
+  const box=card.querySelector('.conflict-box'); if(box){ box.className='conflict-box quiet'; box.textContent=''; }
+  card.querySelector('.meta-chips').innerHTML=[...(a?.weather||[]),...(a?.modes||[]),...(a?.tags||[]).slice(0,3)].map(t=>`<span class="chip ${t}">${t}</span>`).join('')+`<span class="chip">${money(a?.cost||0)}</span>`+`<span class="chip">Hours ${a?.open||'--'}–${a?.close||'--'}</span>`;
   card.querySelector('.link-row').innerHTML=(a?.links||[]).map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('');
   card.querySelector('.remove-block').onclick=()=>planner.removeBlock(block.id);
   timeline.appendChild(node);
@@ -60,7 +64,7 @@ function renderActivities(){
  const cat=$('#activityCategory'); if(cat.options.length===1){[...new Set(activities.map(a=>a.category))].sort().forEach(c=>cat.innerHTML+=`<option value="${c}">${c}</option>`)}
  const q=$('#activitySearch').value?.toLowerCase()||'', c=cat.value, w=$('#activityWeather').value, fav=$('#favoritesOnly').checked;
  const list=activities.filter(a=>(c==='all'||a.category===c)&&(w==='all'||a.weather.includes(w))&&(!fav||state.favorites.includes(a.id))&&(`${a.name} ${a.desc} ${a.tags.join(' ')}`.toLowerCase().includes(q)));
- $('#activityGrid').innerHTML=list.map(a=>`<article class="activity-card"><h3>${a.name}</h3><p>${a.desc}</p><div class="chip-row"><span class="chip">${a.category}</span><span class="chip">${a.duration} min</span><span class="chip">${money(a.cost)}</span></div><div class="card-actions"><button class="favorite ${state.favorites.includes(a.id)?'active':''}" data-fav="${a.id}">★ Favorite</button><button class="favorite" data-add="${a.id}">+ Add to day</button>${a.links.slice(0,2).map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('')}</div></article>`).join('')||'<div class="empty">No activities match your filters.</div>';
+ $('#activityGrid').innerHTML=list.map(a=>`<article class="activity-card"><h3>${a.name}</h3><p>${a.desc}</p><div class="chip-row"><span class="chip">${a.category}</span><span class="chip">${a.duration} min</span><span class="chip">${money(a.cost)}</span></div><div class="card-actions"><a class="link-chip" href="admin.html">Edit hours</a><button class="favorite ${state.favorites.includes(a.id)?'active':''}" data-fav="${a.id}">★ Favorite</button><button class="favorite" data-add="${a.id}">+ Add to day</button>${a.links.slice(0,2).map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('')}</div></article>`).join('')||'<div class="empty">No activities match your filters.</div>';
  $$('[data-fav]').forEach(b=>b.onclick=()=>{const id=b.dataset.fav;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];autosave();});
  $$('[data-add]').forEach(b=>b.onclick=()=>{const a=planner.byId[b.dataset.add];state.days[planner.selectedDay].push({id:uid(),time:a.bestStart,duration:a.duration,activity:a.id});autosave();location.hash='#planner';});
 }

@@ -25,7 +25,7 @@
         <a href="#restaurants">Food</a>
         <a href="#budget">Budget</a>
         <a href="#parking">Parking</a>
-        <a href="#packing">Packing</a>
+        <a href="#packing">Packing</a><a href="admin.html">Admin Hours</a>
       </nav>
     </div>
   </header>
@@ -35,7 +35,7 @@
       <div class="hero-copy">
         <div class="eyebrow">☀️ Mid-July • Ocean City, NJ • Autosaved locally</div>
         <h1>Your smart shore trip planner.</h1>
-        <p>Build a 5-day Ocean City itinerary that adapts for family or solo travel, sunny/cloudy/rainy weather, activity hours, budget, drive times, and your own edits.</p>
+        <p>Build a 5-day Ocean City itinerary that adapts for family or solo travel, sunny/cloudy/rainy weather, budget, drive times, and your own edits.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#planner">Open Planner</a>
           <button class="btn" id="quickGenerateBtn">✨ Build My Day</button>
@@ -80,7 +80,7 @@
 
     <section class="shell quick-grid" id="overview">
       <article class="quick-card"><span>🕒</span><h3>Editable schedule</h3><p>Change start times or duration, and later blocks move automatically.</p></article>
-      <article class="quick-card"><span>⚠️</span><h3>Conflict checks</h3><p>Highlights when an activity may be closed, closing soon, or weather-sensitive.</p></article>
+      <article class="quick-card"><span>🧠</span><h3>Smart scheduling</h3><p>Uses editable JSON activity windows and avoids recommending blocks too close to closing.</p></article>
       <article class="quick-card"><span>💾</span><h3>Autosave</h3><p>Your edits, favorites, budget, checklist, and trip settings save in local storage.</p></article>
       <article class="quick-card"><span>🧭</span><h3>Useful for anyone</h3><p>Family and solo planners, food filters, parking helper, rain swaps, and quick maps.</p></article>
     </section>
@@ -93,7 +93,7 @@
           <hr />
           <button class="btn full" id="resetDayBtn">↺ Reset selected day</button>
           <button class="btn full danger" id="resetAllBtn">Clear saved trip</button>
-          <p class="tiny">Data is stored only on this device for now. Future upgrade path: Supabase/Firebase for accounts and sharing.</p>
+          <p class="tiny">Planner edits save locally. Admin hours can be edited at <a href="admin.html">admin.html</a>, exported as JSON, and committed to GitHub.</p>
         </div>
       </aside>
 
@@ -101,7 +101,7 @@
         <div class="section-head inline-head">
           <div>
             <h2 id="plannerTitle">Day Planner</h2>
-            <p id="plannerSubtitle">Weather-aware, editable blocks with smart warnings.</p>
+            <p id="plannerSubtitle">Weather-aware, editable blocks that save on this device.</p>
           </div>
           <div class="toolbar">
             <button class="btn small" id="addBlockBtn">+ Add block</button>
