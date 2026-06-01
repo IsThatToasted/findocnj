@@ -1,0 +1,74 @@
+[
+  {
+    "venueName": "6th Street Beach Volleyball Courts",
+    "address": "6th Street Beach, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/6th+Street+Beach%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=6th+Street+Beach%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "Ocean City Tabernacle Grounds",
+    "address": "550 Wesley Avenue, Ocean City, NJ 08226",
+    "mapUrl": "https://www.google.com/maps/search/550+Wesley+Avenue%2C+Ocean+City%2C+NJ+08226",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=550+Wesley+Avenue%2C+Ocean+City%2C+NJ+08226"
+  },
+  {
+    "venueName": "Ocean City Music Pier",
+    "address": "825 Boardwalk, Ocean City, NJ 08226",
+    "mapUrl": "https://www.google.com/maps/search/825+Boardwalk%2C+Ocean+City%2C+NJ+08226",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=825+Boardwalk%2C+Ocean+City%2C+NJ+08226"
+  },
+  {
+    "venueName": "Corson\u2019s Park Entrance",
+    "address": "59th Street & Central Avenue, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/59th+Street+%26+Central+Avenue%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=59th+Street+%26+Central+Avenue%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "Downtown Asbury Avenue",
+    "address": "901 Asbury Avenue, Ocean City, NJ 08226",
+    "mapUrl": "https://www.google.com/maps/search/901+Asbury+Avenue%2C+Ocean+City%2C+NJ+08226",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=901+Asbury+Avenue%2C+Ocean+City%2C+NJ+08226"
+  },
+  {
+    "venueName": "Carey Stadium",
+    "address": "6th Street & Boardwalk, Ocean City, NJ 08226",
+    "mapUrl": "https://www.google.com/maps/search/6th+Street+%26+Boardwalk%2C+Ocean+City%2C+NJ+08226",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=6th+Street+%26+Boardwalk%2C+Ocean+City%2C+NJ+08226"
+  },
+  {
+    "venueName": "Longport Bridge Parking Area",
+    "address": "Longport Bridge, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/Longport+Bridge%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Longport+Bridge%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "Shelter Road / OC Golf Course Area",
+    "address": "Shelter Road, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/Shelter+Road%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Shelter+Road%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "34th St. Sandcastle Park",
+    "address": "34th St. Sandcastle Park, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/34th+St.+Sandcastle+Park%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=34th+St.+Sandcastle+Park%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "Ocean / finish near 12th Street",
+    "address": "Ocean / finish near 12th Street, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/Ocean+%2F+finish+near+12th+Street%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Ocean+%2F+finish+near+12th+Street%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "58th Street Beach",
+    "address": "58th Street Beach, Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/58th+Street+Beach%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=58th+Street+Beach%2C+Ocean+City%2C+NJ"
+  },
+  {
+    "venueName": "Bayfront route: Longport Bridge to Tennessee Ave.",
+    "address": "Bayfront route: Longport Bridge to Tennessee Ave., Ocean City, NJ",
+    "mapUrl": "https://www.google.com/maps/search/Bayfront+route%3A+Longport+Bridge+to+Tennessee+Ave.%2C+Ocean+City%2C+NJ",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Bayfront+route%3A+Longport+Bridge+to+Tennessee+Ave.%2C+Ocean+City%2C+NJ"
+  }
+]

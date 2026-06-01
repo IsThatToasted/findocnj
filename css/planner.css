@@ -14,3 +14,15 @@
 .mini-btn:hover,.favorite:hover{transform:translateY(-1px)}
 @media(max-width:980px){.event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.event-filters{grid-template-columns:1fr}}
 @media(max-width:620px){.event-grid{grid-template-columns:1fr}.event-card{border-radius:18px}.event-date{font-size:.8rem}.card-actions .mini-btn,.card-actions .favorite,.card-actions .link-chip{width:100%;justify-content:center;text-align:center}}
+
+/* V9 enriched event library */
+.event-info-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.event-info-grid>div{background:rgba(232,251,255,.75);border:1px solid rgba(8,126,164,.12);border-radius:14px;padding:9px}
+.event-info-grid strong{display:block;color:var(--ocean-dark);font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.event-info-grid span{display:block;color:#244653;font-size:.88rem;line-height:1.35}
+.event-actions{display:grid;gap:8px;margin-top:8px}
+.primary-action{background:linear-gradient(135deg,var(--ocean),#0ea5e9)!important;color:#fff!important;border-color:transparent!important;justify-content:center}
+.swap-control{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
+.swap-control select{width:100%;border:1px solid var(--line);border-radius:999px;padding:9px 11px;font-weight:850;color:var(--deep);background:white;min-width:0}
+.event-card .link-chip{white-space:nowrap}
+@media(max-width:720px){.event-info-grid{grid-template-columns:1fr}.swap-control{grid-template-columns:1fr}.swap-control .mini-btn{width:100%}.event-card .link-chip{width:100%;justify-content:center}.event-card p{font-size:.95rem}.event-info-grid span{font-size:.9rem}}

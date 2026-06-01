@@ -23,7 +23,7 @@ function eventToActivity(ev){
   open:ev.start, close:ev.end==='00:00'?'24:00':ev.end, closeBufferMin:0, allDay:false, important:true, cost:ev.cost||0,
   modes:ev.audience||['family','solo'], weather:ev.weather||['sunny','cloudy','rainy'], tags:[...(ev.tags||[]),'2026-event'],
   links:[...(ev.links||[]), ['Map', 'https://www.google.com/maps/search/'+encodeURIComponent((ev.venue||'Ocean City NJ')+' '+ev.title)]],
-  eventDate:ev.date, eventStart:ev.start, eventEnd:ev.end, venue:ev.venue, source:ev.source
+  eventDate:ev.date, eventStart:ev.start, eventEnd:ev.end, venue:ev.venueName||ev.venue, source:ev.source, address:ev.address
  }
 }
 function toMinutes(t){const [h,m]=String(t||'00:00').split(':').map(Number);return h*60+m}
@@ -97,10 +97,29 @@ function renderEventSuggestions(){
   const aId='event_'+ev.id;
   const day=state.days[planner.selectedDay]||[];
   const swapButtons=day.map((b,i)=>`<button class="mini-btn" data-swap-event="${aId}" data-block="${b.id}">Swap slot ${i+1}</button>`).join('');
-  return `<article class="event-card ${ev.category}"><div class="event-date">${ev.date.replace('2026-','')} • ${start}–${end}</div><h3>${ev.title}</h3><p>${ev.desc}</p><div class="event-venue">📍 ${ev.venue||'Ocean City, NJ'}</div><div class="chip-row">${[ev.category,...(ev.tags||[]).slice(0,4),money(ev.cost||0)].map(x=>`<span class="chip">${x}</span>`).join('')}</div><div class="card-actions"><button class="favorite" data-add-event="${aId}">+ Add event</button>${swapButtons}${(ev.links||[]).slice(0,2).map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('')}</div></article>`
+  const dayOptions=day.map((b,i)=>`<option value="${b.id}">Slot ${i+1}: ${fmtRange(b.time,b.duration)} — ${planner.byId[b.activity]?.name||'Activity'}</option>`).join('');
+  const tags=[ev.category, ev.bestFor||'', ...(ev.tags||[]).slice(0,4), ev.costLabel||money(ev.cost||0)].filter(Boolean);
+  const detailLinks=(ev.links||[]).slice(0,5).map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('');
+  return `<article class="event-card ${ev.category}">
+    <div class="event-date">${ev.date.replace('2026-','')} • ${start}–${end}</div>
+    <h3>${ev.title}</h3>
+    <p>${ev.desc}</p>
+    <div class="event-info-grid">
+      <div><strong>Venue</strong><span>${ev.venueName||ev.venue||'Ocean City, NJ'}</span></div>
+      <div><strong>Address / map target</strong><span>${ev.address||ev.venue||'Ocean City, NJ'}</span></div>
+      <div><strong>Best for</strong><span>${ev.bestFor||'Family or solo'}</span></div>
+      <div><strong>Planner note</strong><span>${ev.plannerNote||'Add or swap this into your day.'}</span></div>
+    </div>
+    <div class="chip-row">${tags.map(x=>`<span class="chip">${x}</span>`).join('')}</div>
+    <div class="event-actions">
+      <button class="favorite primary-action" data-add-event="${aId}">+ Add to selected day</button>
+      <div class="swap-control"><select data-swap-select="${aId}">${dayOptions}</select><button class="mini-btn" data-swap-selected="${aId}">Swap selected slot</button></div>
+    </div>
+    <div class="card-actions">${detailLinks}</div>
+  </article>`
  }).join('') || '<div class="empty">No matching events for this filter/date. Try All July events.</div>';
  $$('[data-add-event]').forEach(b=>b.onclick=()=>{const a=planner.byId[b.dataset.addEvent]; state.days[planner.selectedDay].push({id:uid(),time:a.bestStart,duration:a.duration,activity:a.id}); planner.repairDay(planner.selectedDay,false); autosave(); location.hash='#planner';});
- $$('[data-swap-event]').forEach(b=>b.onclick=()=>{const a=planner.byId[b.dataset.swapEvent]; planner.updateBlock(b.dataset.block,{activity:a.id,time:a.bestStart,duration:a.duration},true); autosave(); location.hash='#planner';});
+ $$('[data-swap-selected]').forEach(b=>b.onclick=()=>{const a=planner.byId[b.dataset.swapSelected]; const select=document.querySelector(`[data-swap-select="${b.dataset.swapSelected}"]`); const blockId=select?.value; if(blockId){planner.updateBlock(blockId,{activity:a.id,time:a.bestStart,duration:a.duration},true); autosave(); location.hash='#planner';}});
 }
 
 function renderTimeline(){

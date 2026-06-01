@@ -44,3 +44,10 @@ The planner no longer displays warning banners. Instead, it uses open/close/buff
 - Use **+ Add event** to append an event to the selected day or **Swap slot** to replace an existing block.
 - Events are also converted into planner activities at runtime, so they can be saved in localStorage and printed.
 - This is static GitHub Pages friendly; update `data/events.json` and push changes for public updates.
+
+## V9 Event Library Upgrade
+
+- `data/events.json` now includes enriched 2026 event metadata: dates, time ranges, venue names, address/map targets, directions URLs, planner notes, cost labels, and source links.
+- The Events section displays a richer card with venue, address, best-fit audience, planner notes, and one-tap Add/Swap controls.
+- Because this is hosted on GitHub Pages, live edits from visitors are saved with `localStorage`. To permanently change event details, edit `data/events.json` and push the update to GitHub.
+- Good future DB path: Supabase table for `events`, `venues`, and `saved_trips` once you want user accounts or shared itineraries.
