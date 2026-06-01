@@ -2,94 +2,228 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OCNJ 5-Day Family + Solo Planner</title>
-  <style>
-    :root{
-      --ocean:#0787b5;--ocean2:#0ea5e9;--deep:#083344;--ink:#17313d;--muted:#607884;
-      --sand:#fff4d6;--sky:#e1f8ff;--card:rgba(255,255,255,.94);--line:rgba(8,126,164,.16);
-      --shadow:0 20px 60px rgba(7,89,133,.16);--radius:24px;--good:#16a34a;--warn:#ca8a04;--bad:#dc2626;
-    }
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at top left,rgba(251,191,36,.25),transparent 30rem),radial-gradient(circle at top right,rgba(45,212,191,.22),transparent 32rem),linear-gradient(180deg,#dff8ff 0%,#fff8e7 42%,#f7fbff 100%);min-height:100vh} a{color:inherit}
-    .topbar{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
-    .topbar-inner{max-width:1200px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px}.brand{display:flex;align-items:center;gap:9px;font-weight:950;color:#075985;letter-spacing:-.04em;white-space:nowrap}.brand-icon{width:38px;height:38px;border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--ocean),#38bdf8);box-shadow:0 10px 25px rgba(8,126,164,.25)}.navlinks{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.navlinks a{text-decoration:none;font-weight:850;color:#075985;font-size:.85rem;padding:8px 9px;border-radius:999px}.navlinks a:hover{background:rgba(8,126,164,.1)}
-    .hero{max-width:1200px;margin:0 auto;padding:46px 16px 24px;display:grid;grid-template-columns:1.05fr .95fr;gap:26px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:9px 14px;border-radius:999px;background:rgba(255,255,255,.86);border:1px solid var(--line);font-weight:950;color:#075985}h1{margin:18px 0 14px;font-size:clamp(2.4rem,6vw,5.2rem);line-height:.94;letter-spacing:-.08em;color:var(--deep)}.hero p{font-size:1.08rem;line-height:1.7;color:var(--muted);max-width:680px}.hero-card{min-height:380px;border-radius:32px;overflow:hidden;position:relative;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.85);background:linear-gradient(rgba(4,47,64,.08),rgba(4,47,64,.24)),url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80') center/cover}.hero-float{position:absolute;left:16px;right:16px;bottom:16px;padding:16px;border-radius:22px;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center}.hero-float strong{display:block;color:var(--deep)}.hero-float span{display:block;color:var(--muted);font-size:.94rem;margin-top:2px}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:15px;padding:12px 15px;border:1px solid transparent;text-decoration:none;font-weight:950;cursor:pointer;transition:.18s ease;background:white}.btn:hover{transform:translateY(-1px)}.btn-primary{background:linear-gradient(135deg,var(--ocean),var(--ocean2));color:#fff;box-shadow:0 14px 32px rgba(14,165,233,.25)}.btn-secondary{background:rgba(255,255,255,.86);color:#075985;border-color:var(--line)}
-    .section{max-width:1200px;margin:0 auto;padding:28px 16px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:16px}h2{margin:0;color:var(--deep);font-size:clamp(1.65rem,3vw,2.8rem);letter-spacing:-.055em}.section-head p{margin:0;color:var(--muted);line-height:1.55;max-width:620px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.card,.planner,.tip-card,.activity-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 15px 42px rgba(8,126,164,.09)}.card,.tip-card{padding:20px}.card .icon{width:44px;height:44px;border-radius:16px;display:grid;place-items:center;background:rgba(8,126,164,.1);font-size:1.25rem;margin-bottom:12px}.card h3,.tip-card h3{margin:0 0 7px;color:var(--deep);letter-spacing:-.035em}.card p,.tip-card p{margin:0;color:var(--muted);line-height:1.55}.tip-card ul{margin:10px 0 0;padding-left:20px;color:var(--muted);line-height:1.75}
-    .planner{padding:16px}.planner-control{position:sticky;top:59px;z-index:40;background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:0 14px 40px rgba(8,126,164,.1);margin-bottom:16px}.control-row{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}.segmented{display:flex;gap:8px;flex-wrap:wrap}.seg{border:1px solid var(--line);background:#fff;color:#075985;font-weight:950;border-radius:999px;padding:10px 14px;cursor:pointer}.seg.active{background:var(--ocean);color:white;box-shadow:0 10px 26px rgba(8,126,164,.22)}.control-group{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.control-group label{font-size:.82rem;font-weight:950;color:#075985}.select,.input{border:1px solid var(--line);border-radius:13px;padding:10px 11px;background:#fff;color:var(--ink);font-weight:800;max-width:100%}.weather-note{padding:10px 12px;background:rgba(224,247,255,.62);border:1px solid rgba(8,126,164,.1);border-radius:16px;color:var(--muted);font-size:.9rem;line-height:1.45;margin-top:10px}.days{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.day-tab{border:1px solid var(--line);background:rgba(255,255,255,.78);font-weight:950;color:#075985;border-radius:999px;padding:9px 12px;cursor:pointer}.day-tab.active{background:#083344;color:white}.day-shell{overflow:hidden;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.78)}.day-title{padding:18px;background:linear-gradient(135deg,#075985,var(--ocean));color:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.day-title h3{margin:0;font-size:1.5rem;letter-spacing:-.04em}.day-title p{margin:5px 0 0;opacity:.92}.pill{display:inline-flex;align-items:center;gap:4px;padding:6px 9px;border-radius:999px;background:rgba(255,255,255,.17);font-weight:900;font-size:.8rem}.schedule{padding:14px;display:grid;gap:12px}.slot{display:grid;grid-template-columns:135px 1fr;gap:12px;padding:14px;border-radius:20px;background:rgba(224,247,255,.58);border:1px solid rgba(8,126,164,.1)}.slot-time{display:grid;gap:8px;align-content:start}.slot-time .label{font-weight:950;color:#075985}.slot-time small{color:var(--muted);font-weight:800}.slot-body h4{margin:0 0 5px;color:var(--deep);font-size:1.08rem}.slot-body p{margin:0;color:#244653;line-height:1.55}.slot-tools{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:10px;align-items:center}.activity-select{min-width:0}.duration-chip{font-size:.8rem;font-weight:950;color:#075985;background:white;border:1px solid var(--line);border-radius:999px;padding:8px 9px;white-space:nowrap}.links{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.link-chip{display:inline-flex;align-items:center;gap:5px;padding:7px 10px;border-radius:999px;text-decoration:none;font-weight:900;font-size:.8rem;color:#075985;background:white;border:1px solid rgba(8,126,164,.15)}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.tag{font-size:.76rem;font-weight:950;border-radius:999px;padding:5px 8px}.sunny{background:rgba(251,191,36,.22);color:#854d0e}.cloudy{background:rgba(100,116,139,.15);color:#334155}.rainy{background:rgba(14,165,233,.16);color:#075985}.family{background:rgba(22,163,74,.13);color:#166534}.solo{background:rgba(168,85,247,.13);color:#6b21a8}.mobile-bar{display:none;position:fixed;bottom:10px;left:10px;right:10px;z-index:100;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 34px rgba(8,126,164,.2);padding:8px;gap:8px}.mobile-bar button,.mobile-bar a{flex:1;border-radius:13px;padding:10px 8px;font-size:.82rem;text-align:center;text-decoration:none;border:1px solid var(--line);font-weight:950;background:#fff;color:#075985}.mobile-bar .primary{background:var(--ocean);color:#fff}
-    .gas{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.result{padding:14px;border-radius:18px;background:rgba(224,247,255,.6);border:1px solid rgba(8,126,164,.1);font-weight:950;color:var(--deep)}.result span{display:block;color:#075985;font-size:1.45rem;margin-top:4px}.checklist label{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid rgba(8,126,164,.09);color:var(--muted);line-height:1.4}.checklist input{margin-top:2px;transform:scale(1.15);accent-color:var(--ocean)}.source-note{font-size:.86rem;color:var(--muted);line-height:1.55;margin-top:12px}.footer{text-align:center;color:var(--muted);padding:34px 16px 80px}.footer strong{color:#075985}
-    @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:34px}.grid-4{grid-template-columns:repeat(2,1fr)}.grid-3,.grid-2{grid-template-columns:1fr}.gas{grid-template-columns:repeat(2,1fr)}.topbar-inner{align-items:flex-start;flex-direction:column}.navlinks{justify-content:flex-start}.planner-control{top:102px}.section-head{align-items:flex-start;flex-direction:column}}
-    @media(max-width:620px){body{padding-bottom:70px}.topbar-inner{padding:9px 12px}.brand{font-size:.95rem}.navlinks{display:none}.hero{padding:28px 12px 16px}.hero-card{min-height:295px;border-radius:24px}.hero-float{grid-template-columns:1fr}.section{padding:22px 12px}.grid-4{grid-template-columns:1fr}.planner{padding:10px;border-radius:20px}.planner-control{position:static;border-radius:18px}.control-row{align-items:stretch}.segmented,.control-group{width:100%}.seg{flex:1;text-align:center;padding:11px 8px}.select,.input{width:100%}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}.day-tab{padding:9px 4px;font-size:.78rem}.day-title{padding:15px}.day-title h3{font-size:1.22rem}.slot{grid-template-columns:1fr;padding:12px}.slot-tools{grid-template-columns:1fr}.duration-chip{width:fit-content}.gas{grid-template-columns:1fr}.hero-actions .btn{width:100%}.mobile-bar{display:flex}.result span{font-size:1.25rem}}
-    @media print{.topbar,.hero-actions,.planner-control,.days,.mobile-bar,.slot-tools,.links button{display:none!important}body{background:white}.hero,.section{max-width:100%;padding:14px}.hero{display:block}.hero-card{min-height:auto;background:none;box-shadow:none}.hero-float{position:static}.card,.planner,.tip-card{box-shadow:none}.slot{break-inside:avoid}}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#087ea4" />
+  <title>OCNJ Complete Smart Planner</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/planner.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
 </head>
 <body>
-<header class="topbar"><div class="topbar-inner"><div class="brand"><div class="brand-icon">🌊</div> OCNJ Smart Planner</div><nav class="navlinks"><a href="#overview">Overview</a><a href="#planner">Planner</a><a href="#gas">Gas Calculator</a><a href="#events">Events</a><a href="#rain">Rain Plan</a><a href="#packing">Packing</a></nav></div></header>
-<main>
-<section class="hero" id="overview"><div><div class="eyebrow">☀️ Mid-July • 5 Days • Family + Solo Modes</div><h1>Ocean City Smart Summer Planner</h1><p>A phone-friendly planner with Family and Solo/Couples modes, weather-based activity swaps, editable time slots that auto-shift the rest of the day, official links, Google Maps shortcuts, rain backups, packing lists, and a gas calculator.</p><div class="hero-actions"><a class="btn btn-primary" href="#planner">Open Smart Planner</a><a class="btn btn-secondary" href="#gas">Estimate Gas Cost</a><button class="btn btn-secondary" onclick="window.print()">🖨️ Print / Save PDF</button></div></div><div class="hero-card"><div class="hero-float"><div style="font-size:2rem">🧭</div><div><strong>Now adaptive and editable</strong><span>Pick Family or Solo, choose Sunny / Cloudy / Rainy, then edit times or swap activities without rebuilding the whole day.</span></div></div></div></section>
-<section class="section"><div class="section-head"><h2>Quick Game Plan</h2><p>Use this rhythm for mid-July: morning outdoor activity, midday reset, then evening boardwalk or events when it is cooler.</p></div><div class="grid-4"><div class="card"><div class="icon">🏖️</div><h3>Sunny</h3><p>Beach, bikes, boat rides, Corson's Inlet, zoo, and evening boardwalk.</p></div><div class="card"><div class="icon">⛅</div><h3>Cloudy</h3><p>Best for Cape May, zoo, shopping, mini golf, biking, and longer walks.</p></div><div class="card"><div class="icon">☔</div><h3>Rainy</h3><p>Arcades, indoor shows, shops, long lunches, Music Pier, and shorter outdoor windows.</p></div><div class="card"><div class="icon">🔁</div><h3>Flexible</h3><p>Change the weather and the planner swaps in better activities while keeping the day structure.</p></div></div></section>
-<section class="section" id="planner"><div class="section-head"><h2>Smart 5-Day Planner</h2><p>Choose your trip style and weather. Time edits auto-shift later activities; activity swaps update notes, duration, and links.</p></div><div class="planner"><div class="planner-control"><div class="control-row"><div class="segmented" aria-label="Planner mode"><button class="seg active" id="familyBtn">👨‍👩‍👧‍👦 Family Planner</button><button class="seg" id="soloBtn">🌙 Solo / Couples Planner</button></div><div class="control-group"><label for="weatherSelect">Weather mode</label><select class="select" id="weatherSelect"><option value="sunny">☀️ Sunny / Beach Day</option><option value="cloudy">⛅ Cloudy / Mild</option><option value="rainy">☔ Rainy / Indoor</option></select><button class="btn btn-secondary" id="resetDay" type="button">Reset Day</button></div></div><div class="weather-note" id="weatherNote">Sunny mode prioritizes beach, bikes, boat rides, zoo, nature stops, and boardwalk nights.</div></div><div class="days" id="days"></div><div id="plannerMount"></div></div></section>
-<section class="section" id="gas"><div class="section-head"><h2>Gas Calculator</h2><p>Estimate drive cost from home to Ocean City plus day-trip driving. Defaults are editable.</p></div><div class="tip-card"><div class="gas"><label>Round-trip miles<input class="input" id="miles" type="number" min="0" step="1" value="360"></label><label>Extra local miles<input class="input" id="extraMiles" type="number" min="0" step="1" value="120"></label><label>MPG<input class="input" id="mpg" type="number" min="1" step="0.1" value="25"></label><label>Gas price / gallon<input class="input" id="gasPrice" type="number" min="0" step="0.01" value="3.60"></label></div><div class="grid-3" style="margin-top:12px"><div class="result">Estimated gallons<span id="gallonsOut">—</span></div><div class="result">Estimated gas cost<span id="costOut">—</span></div><div class="result">Cost per traveler<span id="perPersonOut">—</span><label style="display:block;margin-top:8px;font-size:.9rem;color:var(--muted);font-weight:800">Travelers <input class="input" id="people" type="number" min="1" step="1" value="4" style="margin-top:4px"></label></div></div></div></section>
-<section class="section" id="events"><div class="section-head"><h2>Mid-July Events to Plug In</h2><p>These recurring Ocean City summer events are built into weather suggestions and can replace an evening slot.</p></div><div class="grid-3"><div class="card"><div class="icon">🎈</div><h3>Funtastic Tuesdays</h3><p>10 AM–1 PM on Asbury Avenue with strolling characters, face painters, balloon sculptors, and family entertainment.</p><div class="links"><a class="link-chip" target="_blank" href="https://oceancityvacation.com/events-calendar/funtastic-tuesdays-3/2026-07-21/">Event page</a></div></div><div class="card"><div class="icon">🎭</div><h3>Family Nights</h3><p>7–9 PM on the boardwalk between 6th and 14th Street with magicians, music, characters, and entertainment.</p><div class="links"><a class="link-chip" target="_blank" href="https://oceancityvacation.com/events-calendar/family-nights-9/2026-07-22/">Event page</a></div></div><div class="card"><div class="icon">🎺</div><h3>Mummers Night</h3><p>7–9 PM Thursday boardwalk entertainment between 6th and 14th Street.</p><div class="links"><a class="link-chip" target="_blank" href="https://oceancityvacation.com/events-calendar/mummers-night-4/2026-07-23/">Event page</a></div></div></div><p class="source-note">Also check the official Ocean City 2026 event PDF and main events calendar before the trip because event dates can shift.</p><div class="links"><a class="link-chip" target="_blank" href="https://www.ocnj.us/media/Events/2026CalendarOfEvents.pdf">2026 event PDF</a><a class="link-chip" target="_blank" href="https://oceancityvacation.com/resources/events-calendar/">Events calendar</a><a class="link-chip" target="_blank" href="https://www.ocnj.us/music-pier">Music Pier</a></div></section>
-<section class="section" id="rain"><div class="section-head"><h2>Rain / Heat Backup Plan</h2><p>These are also used by Rainy mode in the smart planner.</p></div><div class="grid-3"><div class="tip-card"><h3>☔ Rain Plan</h3><ul><li>Boardwalk arcades</li><li>Music Pier or indoor show</li><li>Downtown shopping / Market-style browsing</li><li>Longer lunch or early dinner</li><li>Hotel pool if indoor/covered</li></ul></div><div class="tip-card"><h3>🔥 Extreme Heat</h3><ul><li>Outdoor activities before 10:30 AM</li><li>AC break noon–3:30 PM</li><li>Hydrate hourly</li><li>Evening boardwalk after dinner</li><li>Keep Day 4 as a reset day</li></ul></div><div class="tip-card"><h3>🍕 Pizza / Food Notes</h3><ul><li>Manco is kept as Google Maps only</li><li>Alternatives: Piccini, Mario's, Three Brothers, or nearest boardwalk food</li><li>Eat earlier with kids to avoid long waits</li></ul></div></div></section>
-<section class="section" id="packing"><div class="section-head"><h2>Packing Checklist</h2><p>Phone-friendly checklist for beach days, boardwalk nights, and day trips.</p></div><div class="grid-3"><div class="tip-card checklist"><h3>Beach</h3><label><input type="checkbox"> Sunscreen + backup</label><label><input type="checkbox"> Hats / rash guards</label><label><input type="checkbox"> Towels + dry clothes</label><label><input type="checkbox"> Sand toys / shell bucket</label><label><input type="checkbox"> Water + snacks</label><label><input type="checkbox"> Small first aid / wipes</label></div><div class="tip-card checklist"><h3>Boardwalk</h3><label><input type="checkbox"> Stroller/wagon if needed</label><label><input type="checkbox"> Small cash/card</label><label><input type="checkbox"> Portable charger</label><label><input type="checkbox"> Light layer</label><label><input type="checkbox"> Meeting spot plan</label><label><input type="checkbox"> Kid headphones if noise-sensitive</label></div><div class="tip-card checklist"><h3>Day Trips</h3><label><input type="checkbox"> Comfortable shoes</label><label><input type="checkbox"> Extra snacks/water</label><label><input type="checkbox"> Tickets/reservations</label><label><input type="checkbox"> Backup clothes</label><label><input type="checkbox"> Car entertainment</label><label><input type="checkbox"> Stroller for zoo/Cape May</label></div></div></section>
-</main><div class="mobile-bar"><a href="#planner" class="primary">Planner</a><a href="#gas">Gas</a><button onclick="window.print()">PDF</button></div><footer class="footer"><strong>OCNJ Smart Planner</strong><br>Flexible 5-day mid-July itinerary with Family and Solo/Couples modes.</footer>
-<script>
-const activities={
-  arriveFamily:{title:'Drive in + settle without rushing',duration:90,weather:['sunny','cloudy','rainy'],family:true,solo:false,desc:'Arrive, park/check bags, snack, stretch, and avoid starting the trip with a meltdown.',links:[['🗺️ OCNJ map','https://www.google.com/maps/search/Ocean+City+NJ+Boardwalk']]},
-  arriveSolo:{title:'Arrive + boardwalk orientation walk',duration:75,weather:['sunny','cloudy','rainy'],family:false,solo:true,desc:'Park, check in, and do a quick boardwalk walk to get your bearings.',links:[['🗺️ OCNJ map','https://www.google.com/maps/search/Ocean+City+NJ+Boardwalk']]},
-  beach:{title:'Morning beach block',duration:120,weather:['sunny','cloudy'],family:true,solo:true,desc:'Umbrella/shade, water, sunscreen, and sand time. With kids, keep it shorter and easier before peak heat.',links:[['🏷️ Beach tags','https://www.ocnj.us/Beach-Tags'],['🗺️ 12th St Beach','https://www.google.com/maps/search/12th+Street+Beach+Ocean+City+NJ']]},
-  rainLunch:{title:'Long lunch + shops / arcade backup',duration:105,weather:['rainy'],family:true,solo:true,desc:'Use rain as a reset: eat slowly, browse shops, then move to an arcade or indoor show if needed.',links:[['🗺️ Boardwalk food','https://www.google.com/maps/search/Ocean+City+NJ+boardwalk+restaurants'],['🗺️ Arcades','https://www.google.com/maps/search/Ocean+City+NJ+arcade']]},
-  lunchEasy:{title:'Easy lunch / snack reset',duration:60,weather:['sunny','cloudy','rainy'],family:true,solo:true,desc:'Keep lunch simple so the day does not get eaten up by restaurant waits.',links:[['🗺️ Nearby food','https://www.google.com/maps/search/Ocean+City+NJ+family+restaurants']]},
-  nap:{title:'Midday reset: AC, nap, pool, showers',duration:120,weather:['sunny','cloudy','rainy'],family:true,solo:false,desc:'Protect the evening with quiet time. This is the highest-value family block of the day.',links:[]},
-  soloCafe:{title:'Cafe / shopping / hotel reset',duration:90,weather:['sunny','cloudy','rainy'],family:false,solo:true,desc:'Grab coffee, shop, recharge, or reset before the evening plans.',links:[['🗺️ Coffee shops','https://www.google.com/maps/search/Ocean+City+NJ+coffee']]},
-  playland:{title:"Playland's Castaway Cove + arcade",duration:120,weather:['sunny','cloudy'],family:true,solo:true,desc:'Rides, arcade, mini golf, and boardwalk energy. Families should start with kiddie rides; solo/couples can stay later.',links:[['🔗 Official site','https://oceancityfun.com/'],['🎟️ Tickets','https://oceancityfun.com/ticket-sales/'],['🗺️ Map','https://www.google.com/maps/search/Playland%27s+Castaway+Cove+Ocean+City+NJ']]},
-  arcadeRain:{title:'Arcade + indoor boardwalk fun',duration:90,weather:['rainy'],family:true,solo:true,desc:'A reliable rainy-day replacement for rides or beach time.',links:[['🗺️ Arcades','https://www.google.com/maps/search/Ocean+City+NJ+arcade']]},
-  pizza:{title:'Pizza dinner: Manco map + alternatives',duration:75,weather:['sunny','cloudy','rainy'],family:true,solo:true,desc:'Manco is included as a Google Maps option only. Alternatives include Piccini, Mario’s, Three Brothers, or the nearest low-wait boardwalk food.',links:[['🗺️ Manco Google Maps','https://www.google.com/maps/search/Manco+%26+Manco+Ocean+City+NJ'],['🗺️ Piccini Pizza','https://www.google.com/maps/search/Piccini+Pizza+Ocean+City+NJ'],['🗺️ Mario%27s+Pizza+Ocean+City+NJ','https://www.google.com/maps/search/Mario%27s+Pizza+Ocean+City+NJ'],['🗺️ Three+Brothers','https://www.google.com/maps/search/Three+Brothers+Pizza+Ocean+City+NJ']]},
-  bikes:{title:'Boardwalk bike or surrey ride',duration:75,weather:['sunny','cloudy'],family:true,solo:true,desc:'Go early. In-season boardwalk riding is generally a morning activity; surreys are best for mixed-age families.',links:[['🔗 OCNJ biking info','https://oceancityvacation.com/what-to-do/biking/'],['🗺️ Bike rentals','https://www.google.com/maps/search/Ocean+City+NJ+boardwalk+bike+rental']]},
-  dolphin:{title:'Dolphin cruise / calm bay boat ride',duration:120,weather:['sunny','cloudy'],family:true,solo:true,desc:'Great for older kids and adults. For toddlers, choose a shorter cruise and bring snacks, hats, water, and a comfort item.',links:[['🗺️ Dolphin cruise options','https://www.google.com/maps/search/Ocean+City+NJ+dolphin+cruise'],['🔗 Boating info','https://oceancityvacation.com/things-to-do/activities/boating-marinas/']]},
-  miniGolf:{title:'Mini golf / playground choice',duration:75,weather:['sunny','cloudy'],family:true,solo:true,desc:'Mini golf works best for 6–11 and adults; playground or beach redo works better for younger kids.',links:[['🗺️ Mini golf','https://www.google.com/maps/search/Ocean+City+NJ+mini+golf'],['🗺️ Playgrounds','https://www.google.com/maps/search/playground+Ocean+City+NJ']]},
-  dinnerCrab:{title:'Somers Point dinner or local fallback',duration:90,weather:['sunny','cloudy','rainy'],family:true,solo:true,desc:'The Crab Trap is a classic nearby dinner. If kids are fading or weather is bad, stay local.',links:[['🔗 The Crab Trap','https://thecrabtrap.com/'],['🗺️ Map','https://www.google.com/maps/search/The+Crab+Trap+Somers+Point+NJ']]},
-  zoo:{title:'Cape May County Park & Zoo',duration:150,weather:['sunny','cloudy'],family:true,solo:false,desc:'Free-admission zoo and one of the best mixed-age family anchors. Go early before heat.',links:[['🔗 Official zoo','https://capemaycountynj.gov/1008/Park-Zoo---Do-Not-Delete'],['ℹ️ Plan visit','https://capemaycountynj.gov/1148/Plan-Your-Visit'],['🗺️ Directions','https://www.google.com/maps/dir/Ocean+City,+NJ/Cape+May+County+Park+%26+Zoo']]},
-  capeMaySolo:{title:'Cape May lighthouse + Washington Street Mall',duration:180,weather:['sunny','cloudy'],family:false,solo:true,desc:'A stronger solo/couples Cape May day: lighthouse area, shopping, photos, and an optional sunset.',links:[['🔗 Lighthouse','https://capemaymac.org/experience/cape-may-lighthouse/'],['🗺️ Washington Street Mall','https://www.google.com/maps/search/Washington+Street+Mall+Cape+May+NJ']]},
-  lighthouse:{title:'Cape May Lighthouse / Cape May Point',duration:75,weather:['sunny','cloudy'],family:true,solo:true,desc:'Older kids may enjoy climbing; toddlers are better with the grounds and visitor area.',links:[['🔗 Lighthouse info','https://capemaymac.org/experience/cape-may-lighthouse/'],['🗺️ Map','https://www.google.com/maps/search/Cape+May+Lighthouse']]},
-  capeRain:{title:'Rainy Cape May swap: shops + indoor meal',duration:150,weather:['rainy'],family:true,solo:true,desc:'Skip long outdoor walks and use Cape May for shops, lunch, short scenic stops, or return early.',links:[['🗺️ Cape May shops','https://www.google.com/maps/search/Cape+May+NJ+shopping'],['🗺️ Cape May restaurants','https://www.google.com/maps/search/Cape+May+NJ+restaurants']]},
-  corson:{title:"Corson's Inlet short nature stop",duration:75,weather:['sunny','cloudy'],family:true,solo:true,desc:'Short nature walk, shell hunt, birding, and photos. Avoid making it a long midday hike in July.',links:[['🔗 Official park','https://dep.nj.gov/parksandforests/state-park/corsons-inlet-state-park/'],['🗺️ Map','https://www.google.com/maps/search/Corson%27s+Inlet+State+Park+Ocean+City+NJ']]},
-  funtastic:{title:'Funtastic Tuesdays / Market-style family event',duration:120,weather:['sunny','cloudy'],family:true,solo:false,desc:'10 AM–1 PM on Asbury with characters, face painters, balloon sculptors, and family entertainment when your dates line up.',links:[['📅 Event page','https://oceancityvacation.com/events-calendar/funtastic-tuesdays-3/2026-07-21/']]},
-  familyNight:{title:'Family Night or Mummers boardwalk event',duration:120,weather:['sunny','cloudy'],family:true,solo:true,desc:'A perfect evening plug-in when your dates line up: boardwalk entertainment 7–9 PM.',links:[['📅 Family Nights','https://oceancityvacation.com/events-calendar/family-nights-9/2026-07-22/'],['🎺 Mummers Night','https://oceancityvacation.com/events-calendar/mummers-night-4/2026-07-23/']]},
-  musicPierRain:{title:'Music Pier / indoor show backup',duration:120,weather:['rainy'],family:true,solo:true,desc:'Use this as the best rainy evening swap if a show fits your dates.',links:[['🎵 Music Pier','https://www.ocnj.us/music-pier'],['📅 Events calendar','https://oceancityvacation.com/resources/events-calendar/']]},
-  lucy:{title:'Lucy the Elephant landmark stop',duration:75,weather:['sunny','cloudy'],family:true,solo:true,desc:'Short, quirky, iconic photo stop in Margate. Great for families and adults.',links:[['🔗 Official site','https://lucytheelephant.org/'],['🗺️ Map','https://www.google.com/maps/search/Lucy+the+Elephant+Margate+NJ']]},
-  acSolo:{title:'Atlantic City boardwalk / Steel Pier option',duration:150,weather:['sunny','cloudy','rainy'],family:false,solo:true,desc:'Better for solo/couples than young families. Use for Steel Pier, restaurants, casinos, shopping, or nightlife.',links:[['🗺️ AC Boardwalk','https://www.google.com/maps/search/Atlantic+City+Boardwalk'],['🗺️ Steel Pier','https://www.google.com/maps/search/Steel+Pier+Atlantic+City']]},
-  finalBoardwalk:{title:'Final boardwalk walk + favorite repeat',duration:120,weather:['sunny','cloudy'],family:true,solo:true,desc:'Pizza, custard, souvenirs, one last ride/arcade stop, and photos near the Music Pier.',links:[['🗺️ Music Pier','https://www.google.com/maps/search/Ocean+City+Music+Pier'],['🎵 Music Pier','https://www.ocnj.us/music-pier']]},
-  rainyFinal:{title:'Final shops, arcade, early dinner',duration:120,weather:['rainy'],family:true,solo:true,desc:'Rain-friendly wrap-up: souvenirs, arcade, comfort food, and an easy final night.',links:[['🗺️ Souvenirs','https://www.google.com/maps/search/Ocean+City+NJ+souvenir+shop'],['🗺️ Arcades','https://www.google.com/maps/search/Ocean+City+NJ+arcade']]}
-};
-const plans={
- family:[
-  {title:'Day 1 — Arrival, Beach Setup & First Boardwalk Night',note:'Easy start. Get settled, do a short beach test, then boardwalk rides.',slots:[['09:30','arriveFamily',['arriveFamily']],['11:15','lunchEasy',['lunchEasy','rainLunch']],['13:00','beach',['beach','rainLunch']],['14:45','nap',['nap']],['17:00','pizza',['pizza']],['18:30','playland',['playland','arcadeRain']]]},
-  {title:'Day 2 — Bikes, Dolphins & Bay Evening',note:'One main paid activity plus downtime.',slots:[['07:45','bikes',['bikes','rainLunch']],['09:15','lunchEasy',['lunchEasy']],['10:45','dolphin',['dolphin','arcadeRain']],['12:45','nap',['nap']],['16:00','miniGolf',['miniGolf','arcadeRain']],['17:45','dinnerCrab',['dinnerCrab']]]},
-  {title:'Day 3 — Cape May Zoo, Lighthouse & Sunset Option',note:'Zoo anchors the day; lighthouse is optional for older kids.',slots:[['08:30','zoo',['zoo','capeRain']],['12:15','lunchEasy',['lunchEasy','rainLunch']],['13:45','lighthouse',['lighthouse','capeRain']],['15:30','nap',['nap']],['18:30','familyNight',['familyNight','musicPierRain']]]},
-  {title:'Day 4 — Flexible Recovery + Events',note:'Use this day for weather swaps, kid recovery, or events.',slots:[['08:30','corson',['corson','funtastic','rainLunch']],['10:30','miniGolf',['miniGolf','arcadeRain']],['12:00','nap',['nap']],['16:00','miniGolf',['miniGolf','arcadeRain']],['18:30','familyNight',['familyNight','musicPierRain']]]},
-  {title:'Day 5 — Lucy, Optional AC & Final Boardwalk',note:'Memorable final day with a flexible afternoon.',slots:[['09:00','lucy',['lucy','rainLunch']],['10:45','beach',['beach','rainLunch']],['12:45','nap',['nap']],['16:00','miniGolf',['miniGolf','arcadeRain']],['18:00','finalBoardwalk',['finalBoardwalk','rainyFinal']]]}
- ],
- solo:[
-  {title:'Day 1 — Arrival, Beach, Dinner & Boardwalk',note:'More freedom, later evenings, and fewer nap breaks.',slots:[['10:00','arriveSolo',['arriveSolo']],['11:30','lunchEasy',['lunchEasy','rainLunch']],['13:00','beach',['beach','rainLunch']],['15:30','soloCafe',['soloCafe']],['18:00','pizza',['pizza']],['20:00','playland',['playland','arcadeRain']]]},
-  {title:'Day 2 — Bikes, Beach, Cruise & Somers Point',note:'Active day with a more adult evening.',slots:[['07:30','bikes',['bikes','rainLunch']],['09:00','beach',['beach','rainLunch']],['12:00','lunchEasy',['lunchEasy']],['14:00','dolphin',['dolphin','arcadeRain']],['17:45','dinnerCrab',['dinnerCrab']],['20:00','familyNight',['familyNight','musicPierRain']]]},
-  {title:'Day 3 — Cape May Full Day',note:'Lighthouse, shopping, food, and optional sunset.',slots:[['08:30','capeMaySolo',['capeMaySolo','capeRain']],['12:00','lunchEasy',['lunchEasy','capeRain']],['13:30','lighthouse',['lighthouse','capeRain']],['15:30','soloCafe',['soloCafe']],['18:30','capeMaySolo',['capeMaySolo','musicPierRain']]]},
-  {title:'Day 4 — Nature, Shopping & Event Night',note:'Flexible day to chase weather or events.',slots:[['08:30','corson',['corson','rainLunch']],['10:30','beach',['beach','rainLunch']],['13:00','soloCafe',['soloCafe']],['16:00','miniGolf',['miniGolf','arcadeRain']],['19:00','familyNight',['familyNight','musicPierRain']]]},
-  {title:'Day 5 — Lucy, Atlantic City Option & Final Night',note:'Landmark stop plus solo/couples AC option.',slots:[['09:00','lucy',['lucy','rainLunch']],['10:45','acSolo',['acSolo','rainLunch']],['13:30','soloCafe',['soloCafe']],['16:00','beach',['beach','arcadeRain']],['19:00','finalBoardwalk',['finalBoardwalk','rainyFinal']]]}
- ]
-};
-let mode='family', weather='sunny', dayIndex=0, current=[];
-const weatherNotes={sunny:'Sunny mode prioritizes beach, bikes, boat rides, zoo, nature stops, and boardwalk nights.',cloudy:'Cloudy mode keeps outdoor plans but favors walks, zoo, shopping, mini golf, and less heat-sensitive activities.',rainy:'Rainy mode swaps in arcades, long lunches, shops, indoor shows, Music Pier, and shorter outdoor windows.'};
-function clonePlan(){return JSON.parse(JSON.stringify(plans[mode][dayIndex].slots)).map(s=>({start:s[0],activity:bestForWeather(s[2],s[1]),alts:s[2]}));}
-function bestForWeather(alts, fallback){let pool=alts.filter(id=>activities[id].weather.includes(weather));return pool[0]||fallback;}
-function mins(t){let [h,m]=t.split(':').map(Number);return h*60+m} function fmt(n){n=(n+1440)%1440;let h=Math.floor(n/60),m=n%60;return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')} function human(t){let [h,m]=t.split(':').map(Number),amp=h>=12?'PM':'AM',hr=h%12||12;return `${hr}:${String(m).padStart(2,'0')} ${amp}`} function endTime(start,dur){return fmt(mins(start)+dur)}
-function renderDays(){document.getElementById('days').innerHTML=plans[mode].map((d,i)=>`<button class="day-tab ${i===dayIndex?'active':''}" onclick="setDay(${i})">Day ${i+1}</button>`).join('')}
-function renderPlanner(){renderDays();let d=plans[mode][dayIndex];let html=`<div class="day-shell"><div class="day-title"><div><h3>${d.title}</h3><p>${d.note}</p></div><div><span class="pill">${mode==='family'?'Family':'Solo/Couples'}</span><span class="pill">${weather[0].toUpperCase()+weather.slice(1)}</span></div></div><div class="schedule">`;current.forEach((slot,i)=>{let a=activities[slot.activity];html+=`<div class="slot"><div class="slot-time"><div class="label">${human(slot.start)}–${human(endTime(slot.start,a.duration))}</div><input class="input time-input" type="time" value="${slot.start}" onchange="changeTime(${i},this.value)"><small>${a.duration} min</small></div><div class="slot-body"><h4>${a.title}</h4><p>${a.desc}</p><div class="slot-tools"><select class="select activity-select" onchange="changeActivity(${i},this.value)">${slot.alts.map(id=>`<option value="${id}" ${id===slot.activity?'selected':''}>${activities[id].title}</option>`).join('')}</select><span class="duration-chip">${human(slot.start)} → ${human(endTime(slot.start,a.duration))}</span></div><div class="links">${a.links.map(l=>`<a class="link-chip" target="_blank" href="${l[1]}">${l[0]}</a>`).join('')}</div><div class="tags"><span class="tag ${weather}">${weather}</span>${a.family?'<span class="tag family">family</span>':''}${a.solo?'<span class="tag solo">solo</span>':''}</div></div></div>`});html+='</div></div>';document.getElementById('plannerMount').innerHTML=html;document.getElementById('weatherNote').textContent=weatherNotes[weather]}
-function initDay(){current=clonePlan();renderPlanner()} function setDay(i){dayIndex=i;initDay()} function setMode(m){mode=m;dayIndex=0;document.getElementById('familyBtn').classList.toggle('active',m==='family');document.getElementById('soloBtn').classList.toggle('active',m==='solo');initDay()}
-function changeWeather(w){weather=w;current=current.map(s=>({...s,activity:bestForWeather(s.alts,s.activity)}));renderPlanner()}
-function changeActivity(i,id){current[i].activity=id;shiftAfter(i);renderPlanner()} function changeTime(i,val){if(!val)return;current[i].start=val;shiftAfter(i);renderPlanner()} function shiftAfter(i){for(let x=i+1;x<current.length;x++){let prev=current[x-1],a=activities[prev.activity];current[x].start=endTime(prev.start,a.duration+15)}}
-document.getElementById('familyBtn').onclick=()=>setMode('family');document.getElementById('soloBtn').onclick=()=>setMode('solo');document.getElementById('weatherSelect').onchange=e=>{weather=e.target.value;changeWeather(weather)};document.getElementById('resetDay').onclick=initDay;initDay();
-function calcGas(){let miles=+document.getElementById('miles').value||0,extra=+document.getElementById('extraMiles').value||0,mpg=+document.getElementById('mpg').value||1,price=+document.getElementById('gasPrice').value||0,people=+document.getElementById('people').value||1;let gal=(miles+extra)/mpg,cost=gal*price;document.getElementById('gallonsOut').textContent=gal.toFixed(1);document.getElementById('costOut').textContent='$'+cost.toFixed(2);document.getElementById('perPersonOut').textContent='$'+(cost/people).toFixed(2)};['miles','extraMiles','mpg','gasPrice','people'].forEach(id=>document.getElementById(id).addEventListener('input',calcGas));calcGas();
-</script>
+  <header class="appbar">
+    <div class="appbar-inner">
+      <a class="brand" href="#home" aria-label="OCNJ Complete Planner home">
+        <span class="brand-icon">🌊</span>
+        <span><strong>OCNJ Complete Planner</strong><small>Family, solo, weather-aware days</small></span>
+      </a>
+      <button class="hamburger" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav class="nav" id="mainNav">
+        <a href="#planner">Planner</a>
+        <a href="#builder">Build Day</a>
+        <a href="#activities">Activities</a>
+        <a href="#restaurants">Food</a>
+        <a href="#budget">Budget</a>
+        <a href="#parking">Parking</a>
+        <a href="#packing">Packing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow">☀️ Mid-July • Ocean City, NJ • Autosaved locally</div>
+        <h1>Your smart shore trip planner.</h1>
+        <p>Build a 5-day Ocean City itinerary that adapts for family or solo travel, sunny/cloudy/rainy weather, activity hours, budget, drive times, and your own edits.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#planner">Open Planner</a>
+          <button class="btn" id="quickGenerateBtn">✨ Build My Day</button>
+          <button class="btn" id="printBtn">🖨️ Print / Save PDF</button>
+        </div>
+        <div class="save-status" id="saveStatus">Saved locally</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-photo"></div>
+        <div class="hero-floating-card">
+          <strong>Made for real use</strong>
+          <span>Edit times, swap activities, favorite ideas, track budget, and reopen later with your changes still there.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell control-deck" aria-label="Planner controls">
+      <div class="control-card primary-control">
+        <label>Trip mode</label>
+        <div class="segmented" id="modeSegment">
+          <button data-mode="family" class="active">👨‍👩‍👧 Family</button>
+          <button data-mode="solo">🌙 Solo / Couples</button>
+        </div>
+      </div>
+      <div class="control-card">
+        <label>Weather plan</label>
+        <div class="segmented weather" id="weatherSegment">
+          <button data-weather="sunny" class="active">☀️ Sunny</button>
+          <button data-weather="cloudy">⛅ Cloudy</button>
+          <button data-weather="rainy">☔ Rainy</button>
+        </div>
+      </div>
+      <div class="control-card compact">
+        <label>Trip dates</label>
+        <input type="date" id="tripStart" />
+      </div>
+      <div class="control-card compact">
+        <label>Group size</label>
+        <input type="number" id="groupSize" min="1" max="12" value="4" />
+      </div>
+    </section>
+
+    <section class="shell quick-grid" id="overview">
+      <article class="quick-card"><span>🕒</span><h3>Editable schedule</h3><p>Change start times or duration, and later blocks move automatically.</p></article>
+      <article class="quick-card"><span>⚠️</span><h3>Conflict checks</h3><p>Highlights when an activity may be closed, closing soon, or weather-sensitive.</p></article>
+      <article class="quick-card"><span>💾</span><h3>Autosave</h3><p>Your edits, favorites, budget, checklist, and trip settings save in local storage.</p></article>
+      <article class="quick-card"><span>🧭</span><h3>Useful for anyone</h3><p>Family and solo planners, food filters, parking helper, rain swaps, and quick maps.</p></article>
+    </section>
+
+    <section class="shell layout" id="planner">
+      <aside class="sidebar">
+        <div class="panel sticky-panel">
+          <h2>Days</h2>
+          <div class="day-tabs" id="dayTabs"></div>
+          <hr />
+          <button class="btn full" id="resetDayBtn">↺ Reset selected day</button>
+          <button class="btn full danger" id="resetAllBtn">Clear saved trip</button>
+          <p class="tiny">Data is stored only on this device for now. Future upgrade path: Supabase/Firebase for accounts and sharing.</p>
+        </div>
+      </aside>
+
+      <section class="planner-panel">
+        <div class="section-head inline-head">
+          <div>
+            <h2 id="plannerTitle">Day Planner</h2>
+            <p id="plannerSubtitle">Weather-aware, editable blocks with smart warnings.</p>
+          </div>
+          <div class="toolbar">
+            <button class="btn small" id="addBlockBtn">+ Add block</button>
+            <button class="btn small" id="optimizeBtn">⚡ Optimize</button>
+          </div>
+        </div>
+        <div class="notice" id="weatherNotice"></div>
+        <div id="timeline" class="timeline"></div>
+      </section>
+    </section>
+
+    <section class="shell builder" id="builder">
+      <div class="section-head">
+        <div><h2>Build My Day</h2><p>Pick your priorities and let the planner suggest a balanced day.</p></div>
+      </div>
+      <div class="builder-grid panel">
+        <label>Travel style<select id="builderMode"><option value="family">Family</option><option value="solo">Solo / couples</option></select></label>
+        <label>Weather<select id="builderWeather"><option value="sunny">Sunny</option><option value="cloudy">Cloudy</option><option value="rainy">Rainy</option></select></label>
+        <label>Energy<select id="builderEnergy"><option value="low">Low</option><option value="medium" selected>Medium</option><option value="high">High</option></select></label>
+        <label>Budget target<input id="builderBudget" type="number" value="175" min="0" /></label>
+        <label>Must include<select id="builderMust"><option value="any">Anything</option><option value="beach">Beach</option><option value="rides">Rides</option><option value="nature">Nature</option><option value="animals">Animals</option><option value="food">Food</option></select></label>
+        <button class="btn primary" id="applyBuilderBtn">Generate selected day</button>
+      </div>
+    </section>
+
+    <section class="shell" id="activities">
+      <div class="section-head"><div><h2>Activity Library</h2><p>Filter, favorite, and add activities to the selected day.</p></div></div>
+      <div class="filters panel">
+        <input id="activitySearch" placeholder="Search activities, tags, location..." />
+        <select id="activityCategory"><option value="all">All categories</option></select>
+        <select id="activityWeather"><option value="all">Any weather</option><option value="sunny">Sunny</option><option value="cloudy">Cloudy</option><option value="rainy">Rainy</option></select>
+        <label class="checkbox-row"><input type="checkbox" id="favoritesOnly" /> Favorites only</label>
+      </div>
+      <div class="card-grid" id="activityGrid"></div>
+    </section>
+
+    <section class="shell two-col" id="restaurants">
+      <div>
+        <div class="section-head"><div><h2>Food Finder</h2><p>Quick picks for pizza, breakfast, seafood, treats, and rainy-day meals.</p></div></div>
+        <div class="filters panel"><input id="foodSearch" placeholder="Search food..." /><select id="foodType"><option value="all">All food</option></select></div>
+        <div class="card-grid small-cards" id="foodGrid"></div>
+      </div>
+      <div>
+        <div class="section-head"><div><h2>Gas Calculator</h2><p>Estimate travel fuel cost.</p></div></div>
+        <div class="panel calculator">
+          <label>Round-trip miles<input id="gasMiles" type="number" value="280" /></label>
+          <label>Vehicle MPG<input id="gasMpg" type="number" value="25" /></label>
+          <label>Gas price / gallon<input id="gasPrice" type="number" value="3.50" step="0.01" /></label>
+          <label>Parking / tolls<input id="gasExtras" type="number" value="25" /></label>
+          <div class="total-card"><span>Estimated travel cost</span><strong id="gasTotal">$0</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell two-col" id="budget">
+      <div>
+        <div class="section-head"><div><h2>Budget Tracker</h2><p>Planned costs update from your itinerary plus manual expenses.</p></div></div>
+        <div class="panel budget-panel">
+          <label>Trip budget<input id="tripBudget" type="number" value="600" /></label>
+          <div class="budget-meter"><div id="budgetBar"></div></div>
+          <div class="budget-stats"><span>Planned: <strong id="plannedCost">$0</strong></span><span>Remaining: <strong id="remainingBudget">$0</strong></span></div>
+          <div id="expenseList"></div>
+          <button class="btn full" id="addExpenseBtn">+ Add expense</button>
+        </div>
+      </div>
+      <div id="parking">
+        <div class="section-head"><div><h2>Parking & Beach Helper</h2><p>Fast links and reminders.</p></div></div>
+        <div class="panel helper-list">
+          <a target="_blank" href="https://www.google.com/maps/search/parking+near+Ocean+City+NJ+boardwalk">🅿️ Boardwalk parking search</a>
+          <a target="_blank" href="https://www.google.com/maps/search/public+restroom+Ocean+City+NJ+boardwalk">🚻 Public restroom search</a>
+          <a target="_blank" href="https://www.ocnj.us/beachtags">🏷️ Official beach tag info</a>
+          <a target="_blank" href="https://store.ocnj.us/">🛒 Beach tag store</a>
+          <a target="_blank" href="https://www.google.com/maps/search/Ocean+City+NJ+playground">🛝 Playground search</a>
+          <div class="mini-note">Beach tags are required for ages 12+ in season per the official OCNJ store. Always confirm seasonal rules before travel.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell" id="rain">
+      <div class="section-head"><div><h2>Rain, Heat & Reset Plans</h2><p>Use these quick swap plans when July weather or kid energy changes.</p></div></div>
+      <div class="quick-grid">
+        <article class="quick-card"><span>☔</span><h3>Rain plan</h3><p>Arcades, indoor meal, shopping, Music Pier, covered mini golf if open.</p></article>
+        <article class="quick-card"><span>🔥</span><h3>Heat plan</h3><p>Beach early only, AC noon–3:30, water breaks every hour, rides later.</p></article>
+        <article class="quick-card"><span>🧒</span><h3>Kid reset</h3><p>Cancel the far drive, pool/nap, early dinner, one treat, one easy ride.</p></article>
+        <article class="quick-card"><span>🌬️</span><h3>Windy water day</h3><p>Swap boat/parasail for zoo, mini golf, boardwalk snack route, or shopping.</p></article>
+      </div>
+    </section>
+
+    <section class="shell" id="packing">
+      <div class="section-head"><div><h2>Packing Checklist</h2><p>Checked items autosave.</p></div></div>
+      <div class="checklist-grid" id="packingGrid"></div>
+    </section>
+  </main>
+
+  <nav class="mobile-bottom" aria-label="Mobile shortcuts">
+    <a href="#planner" class="active">Planner</a>
+    <a href="#builder">Build</a>
+    <a href="#activities">Ideas</a>
+    <a href="#budget">Budget</a>
+  </nav>
+
+  <template id="blockTemplate">
+    <article class="time-card">
+      <div class="time-top">
+        <div class="time-range"></div>
+        <button class="icon-btn remove-block" title="Remove">×</button>
+      </div>
+      <div class="time-edit-row">
+        <label>Start <input type="time" class="start-input" /></label>
+        <label>Duration <input type="number" class="duration-input" min="15" step="15" /></label>
+      </div>
+      <div class="activity-main">
+        <select class="activity-select"></select>
+        <h3 class="activity-title"></h3>
+        <p class="activity-desc"></p>
+      </div>
+      <div class="conflict-box"></div>
+      <div class="chip-row meta-chips"></div>
+      <div class="link-row"></div>
+    </article>
+  </template>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
