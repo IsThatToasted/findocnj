@@ -24,8 +24,8 @@
     ],
     "links": [
       [
-        "Beach tags",
-        "https://www.ocnj.us/beachtags"
+        "Beach tag store",
+        "https://store.ocnj.us/"
       ],
       [
         "12th St Beach map",
@@ -36,9 +36,9 @@
     "closeBufferMin": 15,
     "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
     "hoursSource": {
-      "label": "Planning default",
-      "url": "https://www.ocnj.us/beachtags",
-      "note": "Editable planning default."
+      "label": "OCNJ Beach Tag Store",
+      "url": "https://store.ocnj.us/",
+      "note": "Official online beach tag store; beach itself uses a planning daylight window."
     }
   },
   {
@@ -159,7 +159,7 @@
       ],
       [
         "Boating info",
-        "https://oceancityvacation.com/things-to-do/activities/boating-marinas/"
+        "https://oceancityvacation.com/what-to-do/boating-marinas/"
       ]
     ],
     "important": true,
@@ -276,7 +276,7 @@
     "links": [
       [
         "Official zoo",
-        "https://capemaycountynj.gov/1008/Park-Zoo---Do-Not-Delete"
+        "https://capemaycountynj.gov/1679/Park-Zoo"
       ],
       [
         "Plan visit",
@@ -520,8 +520,8 @@
     "modes": [
       "solo"
     ],
-    "open": "12:00",
-    "close": "23:59",
+    "open": "00:00",
+    "close": "24:00",
     "bestStart": "20:00",
     "tags": [
       "nightlife",
@@ -535,13 +535,15 @@
       ]
     ],
     "important": false,
-    "closeBufferMin": 15,
-    "planningNote": "Confirm official hours before leaving; the planner uses conservative default windows.",
+    "closeBufferMin": 0,
+    "planningNote": "Atlantic City boardwalk/casino district is treated as a 24-hour area; individual restaurants, Steel Pier, shops, and attractions still need date-specific confirmation.",
     "hoursSource": {
-      "label": "Planning default",
+      "label": "Planning default: Atlantic City district",
       "url": "https://www.google.com/maps/dir/Ocean+City,+NJ/Atlantic+City+Boardwalk",
-      "note": "Editable planning default."
-    }
+      "note": "Area-level planning window only. Individual stops vary."
+    },
+    "allDay": true,
+    "hoursMode": "24h"
   },
   {
     "id": "sunset_cruise",

@@ -21,6 +21,7 @@
       <nav class="nav" id="mainNav">
         <a href="#planner">Planner</a>
         <a href="#builder">Build Day</a>
+        <a href="#events">Events</a>
         <a href="#activities">Activities</a>
         <a href="#restaurants">Food</a>
         <a href="#budget">Budget</a>
@@ -111,6 +112,20 @@
         <div class="notice" id="weatherNotice"></div>
         <div id="timeline" class="timeline"></div>
       </section>
+    </section>
+
+
+    <section class="shell" id="events">
+      <div class="section-head">
+        <div><h2>2026 Event Suggestions & Quick Swaps</h2><p>Events from the official 2026 OCNJ calendar and Ocean City Vacation calendar. Pick your trip start date and selected day, then add or swap events directly into the planner.</p></div>
+      </div>
+      <div class="filters panel event-filters">
+        <input id="eventSearch" placeholder="Search events, concerts, kids, fireworks, markets..." />
+        <select id="eventCategory"><option value="all">All event types</option></select>
+        <select id="eventWhen"><option value="selected">Selected trip day</option><option value="all">All July 2026 events</option></select>
+      </div>
+      <p class="tiny" id="eventHint"></p>
+      <div class="event-grid" id="eventSuggestions"></div>
     </section>
 
     <section class="shell builder" id="builder">
@@ -218,7 +233,6 @@
         <h3 class="activity-title"></h3>
         <p class="activity-desc"></p>
       </div>
-      <div class="conflict-box"></div>
       <div class="chip-row meta-chips"></div>
       <div class="link-row"></div>
     </article>

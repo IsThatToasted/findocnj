@@ -19,33 +19,48 @@ export class Planner{
   if(!base||!base.length)base=this.plans?.[mode]?.sunny||[];
   return JSON.parse(JSON.stringify(base));
  }
+ activityAllowedByContext(a){
+  return !!a && a.modes?.includes(this.state.mode) && a.weather?.includes(this.state.weather);
+ }
  windowFor(a){
   if(!a)return null;
+  if(a.allDay || a.hoursMode==='24h') return {allDay:true,open:0,closeRaw:1440,buffer:0,latest:1439};
   const open=toMin(a.open||'00:00');
-  const closeRaw=toMin(a.close||'23:59');
+  let closeRaw=toMin(a.close||'23:59');
+  if(closeRaw===0 && a.close==='24:00') closeRaw=1440;
+  // If closing time is less than/equal to opening, treat it as an overnight window.
+  if(closeRaw<=open) closeRaw+=1440;
   const buffer=Number(a.closeBufferMin ?? (a.important?45:15));
-  const latest=Math.max(open, closeRaw - buffer - Number(a.duration||60));
-  return {open,closeRaw,buffer,latest};
+  const dur=Number(a.duration||60);
+  const latest=Math.max(open, closeRaw - buffer - dur);
+  return {allDay:false,open,closeRaw,buffer,latest};
+ }
+ normalizeStartForWindow(a,start){
+  const w=this.windowFor(a); if(!w)return toMin(start||a.bestStart||'12:00');
+  let s=toMin(start||a.bestStart||'12:00');
+  // For overnight windows, a 12:30 AM block should be considered next-day minutes.
+  if(!w.allDay && w.closeRaw>1440 && s<w.open) s+=1440;
+  return s;
  }
  fitsActivity(a,start,duration=a?.duration||60){
-  if(!a) return false;
-  if(!a.modes?.includes(this.state.mode) || !a.weather?.includes(this.state.weather)) return false;
-  const w=this.windowFor(a); if(!w) return true;
-  const s=toMin(start||a.bestStart||'12:00');
+  if(!this.activityAllowedByContext(a)) return false;
+  const w=this.windowFor(a); if(!w || w.allDay) return true;
+  const s=this.normalizeStartForWindow(a,start);
   return s>=w.open && (s+Number(duration)) <= (w.closeRaw-w.buffer);
  }
  safeStartFor(a,wanted){
-  const w=this.windowFor(a); if(!w)return wanted||a.bestStart||'12:00';
-  const target=toMin(wanted||a.bestStart||'12:00');
-  return toTime(Math.min(Math.max(target,w.open),w.latest));
+  const w=this.windowFor(a); if(!w||w.allDay)return wanted||a.bestStart||'12:00';
+  let target=this.normalizeStartForWindow(a,wanted||a.bestStart||'12:00');
+  const clamped=Math.min(Math.max(target,w.open),w.latest);
+  return toTime(clamped);
  }
  scoreActivity(a,start,oldCat){
   const m=toMin(start||'12:00'); let score=0;
   if(a.weather.includes(this.state.weather)) score+=90;
   if(a.modes.includes(this.state.mode)) score+=90;
   if(oldCat && a.category===oldCat) score+=45;
-  if(this.fitsActivity(a,start,a.duration)) score+=100; else score-=150;
-  if(a.important) score+=15;
+  if(this.fitsActivity(a,start,a.duration)) score+=140; else score-=250;
+  if(a.important) score+=20;
   score-=Math.abs(toMin(a.bestStart||start)-m)/8;
   if(a.tags?.includes('reset')&&m>=720&&m<=960)score+=25;
   return score;
@@ -53,12 +68,13 @@ export class Planner{
  bestAlternative(oldAct,start){
   const oldCat=oldAct?.category;
   return this.activities
-   .filter(a=>a.weather.includes(this.state.weather)&&a.modes.includes(this.state.mode))
-   .sort((a,b)=>this.scoreActivity(b,start,oldCat)-this.scoreActivity(a,start,oldCat))[0];
+   .filter(a=>this.activityAllowedByContext(a) && this.fitsActivity(a,start,a.duration))
+   .sort((a,b)=>this.scoreActivity(b,start,oldCat)-this.scoreActivity(a,start,oldCat))[0]
+   || this.activities.filter(a=>this.activityAllowedByContext(a)).sort((a,b)=>this.scoreActivity(b,start,oldCat)-this.scoreActivity(a,start,oldCat))[0];
  }
  repairBlock(block){
   let a=this.byId[block.activity];
-  if(!a || !a.modes.includes(this.state.mode) || !a.weather.includes(this.state.weather)){
+  if(!this.activityAllowedByContext(a)){
    a=this.bestAlternative(a,block.time); if(a){block.activity=a.id; block.duration=a.duration;}
   }
   a=this.byId[block.activity]; if(!a)return block;
@@ -71,13 +87,16 @@ export class Planner{
  }
  repairDay(dayIndex=this.selectedDay, save=false){
   const day=this.state.days[dayIndex]||[];
+  // First put every block into a valid activity/window.
   day.forEach(b=>this.repairBlock(b));
   day.sort((a,b)=>toMin(a.time)-toMin(b.time));
+  // Then ripple later blocks forward. If a ripple makes a block miss its window, it is moved earlier if possible or swapped out.
   for(let i=1;i<day.length;i++){
     const prev=day[i-1], cur=day[i]; const needed=toMin(prev.time)+Number(prev.duration)+15;
     if(toMin(cur.time)<needed) cur.time=toTime(needed);
     this.repairBlock(cur);
   }
+  day.sort((a,b)=>toMin(a.time)-toMin(b.time));
   if(save)this.changed();
  }
  repairAll(save=true){(this.state.days||[]).forEach((_,i)=>this.repairDay(i,false)); if(save)this.changed();}
@@ -90,7 +109,7 @@ export class Planner{
   const day=this.state.days[this.selectedDay];
   const last=day[day.length-1];
   const time=last?toTime(toMin(last.time)+Number(last.duration)+15):'09:00';
-  const activity=this.suggestActivity(time)?.id||this.activities[0].id;
+  const activity=this.suggestActivity(time)?.id||this.activities.find(a=>this.activityAllowedByContext(a))?.id||this.activities[0].id;
   day.push(this.repairBlock({id:uid(),time,duration:this.byId[activity].duration,activity}));
   this.repairDay(this.selectedDay,false); this.changed();
  }
@@ -102,7 +121,7 @@ export class Planner{
  }
  shiftAfter(index){const day=this.state.days[this.selectedDay];for(let i=index+1;i<day.length;i++){const prev=day[i-1];day[i].time=toTime(toMin(prev.time)+Number(prev.duration)+15);}}
  optimizeDay(){this.resetDay(this.selectedDay);}
- suggestActivity(time){return this.activities.filter(a=>a.weather.includes(this.state.weather)&&a.modes.includes(this.state.mode)&&this.fitsActivity(a,time,a.duration)).sort((a,b)=>Math.abs(toMin(a.bestStart)-toMin(time))-Math.abs(toMin(b.bestStart)-toMin(time)))[0];}
+ suggestActivity(time){return this.activities.filter(a=>this.activityAllowedByContext(a)&&this.fitsActivity(a,time,a.duration)).sort((a,b)=>Math.abs(toMin(a.bestStart)-toMin(time))-Math.abs(toMin(b.bestStart)-toMin(time)))[0];}
  totalCost(){return this.state.days.flat().reduce((sum,b)=>sum+(this.byId[b.activity]?.cost||0),0)}
  changed(){this.onChange?.(this.state)}
 }

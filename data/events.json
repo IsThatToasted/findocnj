@@ -1,0 +1,3300 @@
+[
+  {
+    "id": "july1_pilates",
+    "title": "Beach Exercise: Pilates",
+    "date": "2026-07-01",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free Pilates on the beach. Bring a towel and water.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july1_farmers",
+    "title": "Farmers Market + Crafters",
+    "date": "2026-07-01",
+    "start": "08:00",
+    "end": "12:00",
+    "venue": "Tabernacle Grounds, 6th & Asbury Ave.",
+    "desc": "Farmers market with crafters in the street.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "food",
+      "shopping"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july1_pie",
+    "title": "Wacky Wednesday: Pie Eating Contest",
+    "date": "2026-07-01",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Apple and cherry pie eating contest. Free, all ages, limited participants.",
+    "category": "contest",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july1_freckle",
+    "title": "Freckle Contest",
+    "date": "2026-07-01",
+    "start": "18:00",
+    "end": "18:45",
+    "venue": "Music Pier",
+    "desc": "Free freckle contest; registration begins 5:30 PM.",
+    "category": "contest",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july1_beachwalk_pm",
+    "title": "Evening Beach Walk",
+    "date": "2026-07-01",
+    "start": "18:30",
+    "end": "19:30",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Evening guided beach walk at Corson\u2019s Park entrance.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july1_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-01",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july2_sand_sculpting",
+    "title": "Sand Sculpting Contest",
+    "date": "2026-07-02",
+    "start": "09:00",
+    "end": "11:00",
+    "venue": "6th St. Beach",
+    "desc": "Open to kids, teens, adults and families. Registration begins 9 AM; judging by 11 AM.",
+    "category": "contest",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "beach",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july2_market_days",
+    "title": "Market Days on Asbury Avenue",
+    "date": "2026-07-02",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, face painters and balloon sculptors along Asbury Avenue.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "downtown",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july2_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-02",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july2_pops_drone",
+    "title": "Ocean City Pops FREE Patriotic Drone Show and Outdoor Concert",
+    "date": "2026-07-02",
+    "start": "20:00",
+    "end": "21:00",
+    "venue": "Carey Stadium",
+    "desc": "Free outdoor concert followed by patriotic drone show over the beach and boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "music",
+      "drone"
+    ],
+    "links": [
+      [
+        "Details",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ],
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july3_lowimpact",
+    "title": "Beach Exercise: Low Impact",
+    "date": "2026-07-03",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free low-impact beach exercise.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july3_walking",
+    "title": "Walking Club",
+    "date": "2026-07-03",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "Outside Ocean City Music Pier",
+    "desc": "All ages and fitness levels meet outside the Music Pier to walk the boardwalk. Weather permitting.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july3_webber",
+    "title": "Phantom, Evita, and More: Best of Andrew Lloyd Webber",
+    "date": "2026-07-03",
+    "start": "20:00",
+    "end": "22:00",
+    "venue": "Carey Stadium",
+    "desc": "Outdoor show at Carey Stadium featuring Andrew Lloyd Webber hits.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july4_gardens_bike",
+    "title": "Fourth of July Bike Parade: Gardens",
+    "date": "2026-07-04",
+    "start": "10:00",
+    "end": "11:00",
+    "venue": "Longport Bridge parking lot",
+    "desc": "Bike parade; registration at 9 AM, parade begins 10 AM.",
+    "category": "parade",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "bike",
+      "holiday"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july4_south_bike",
+    "title": "Fourth of July Bike Parade: South OC",
+    "date": "2026-07-04",
+    "start": "10:00",
+    "end": "11:00",
+    "venue": "40th & Asbury Ave.",
+    "desc": "South Ocean City bike parade; registration at 9 AM, parade begins 10 AM.",
+    "category": "parade",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "bike",
+      "holiday"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july4_kites_fireworks",
+    "title": "Fourth of July Kite Competition + Fireworks",
+    "date": "2026-07-04",
+    "start": "19:00",
+    "end": "21:30",
+    "venue": "Boardwalk / Beach",
+    "desc": "Kite competition at 7 PM and fireworks at 9 PM.",
+    "category": "holiday",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "fireworks",
+      "night"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july4_pops",
+    "title": "Ocean City Pops FREE Outdoor Concert",
+    "date": "2026-07-04",
+    "start": "20:00",
+    "end": "21:00",
+    "venue": "Carey Stadium",
+    "desc": "Free patriotic outdoor concert by the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "music",
+      "holiday"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july5_abba",
+    "title": "Direct from Sweden: The Music of ABBA with the OC Pops",
+    "date": "2026-07-05",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "ABBA tribute performance with the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july6_beach_yoga",
+    "title": "Beach Exercise: Yoga",
+    "date": "2026-07-06",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free beach yoga. Bring a towel and water. Hosted by Ocean City Aquatic & Fitness Center.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july6_bruce",
+    "title": "Bruce in the USA: Springsteen Tribute",
+    "date": "2026-07-06",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Tribute to Bruce Springsteen and the E Street Band.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Etix",
+        "https://www.etix.com/ticket/v/16688/ocean-city-music-pier"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july6_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-06",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july6_drone_show",
+    "title": "America 250: Lights Over Ocean City Drone Show",
+    "date": "2026-07-06",
+    "start": "20:45",
+    "end": "21:15",
+    "venue": "Beach/Boardwalk south of 6th Street",
+    "desc": "Patriotic drone show over beach and boardwalk after dusk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "night",
+      "drone"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july7_beach_walk",
+    "title": "Beach Walk at Corson\u2019s Park Entrance",
+    "date": "2026-07-07",
+    "start": "09:00",
+    "end": "10:00",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Guided beach walk at the entrance to Corson\u2019s Park.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july7_bicycle_auction",
+    "title": "Bicycle Auction",
+    "date": "2026-07-07",
+    "start": "10:00",
+    "end": "12:00",
+    "venue": "Shelter Road",
+    "desc": "Approx. 115 bicycles to be sold; registration begins 9 AM.",
+    "category": "market",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "shopping",
+      "bike"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july7_funtastic",
+    "title": "Funtastic Tuesday",
+    "date": "2026-07-07",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, strolling characters, face painters and balloon sculptors.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "downtown"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july7_pooh",
+    "title": "Winnie the Pooh: The Musical",
+    "date": "2026-07-07",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "OCTC musical adaptation of Winnie-the-Pooh.",
+    "category": "show",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 20,
+    "tags": [
+      "kids",
+      "indoor",
+      "ticketed"
+    ],
+    "links": [
+      [
+        "OCTC",
+        "https://www.oceancitytheatrecompany.com"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july7_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-07",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_pilates",
+    "title": "Beach Exercise: Pilates",
+    "date": "2026-07-08",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free Pilates on the beach. Bring a towel and water.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_farmers",
+    "title": "Farmers Market + Crafters",
+    "date": "2026-07-08",
+    "start": "08:00",
+    "end": "12:00",
+    "venue": "Tabernacle Grounds, 6th & Asbury Ave.",
+    "desc": "Farmers market with crafters in the street.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "food",
+      "shopping"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_taffy",
+    "title": "Wacky Wednesday: Taffy Sculpting",
+    "date": "2026-07-08",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Sculpt Shriver\u2019s salt water taffy into a masterpiece. Free, first 200 participants.",
+    "category": "contest",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_sandcastle_series",
+    "title": "34th St. Sandcastle Park Summer Entertainment Series",
+    "date": "2026-07-08",
+    "start": "18:30",
+    "end": "20:30",
+    "venue": "34th St. Sandcastle Park",
+    "desc": "Themed entertainment, live performers, face painters and balloon makers.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_beachwalk_pm",
+    "title": "Evening Beach Walk",
+    "date": "2026-07-08",
+    "start": "18:30",
+    "end": "19:30",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Evening guided beach walk at Corson\u2019s Park entrance.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-08",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july8_duprees",
+    "title": "The Duprees with the Ocean City Pops",
+    "date": "2026-07-08",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "The Duprees perform romantic standards with the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july9_market_days",
+    "title": "Market Days on Asbury Avenue",
+    "date": "2026-07-09",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, face painters and balloon sculptors along Asbury Avenue.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "downtown",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july9_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-09",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july10_lowimpact",
+    "title": "Beach Exercise: Low Impact",
+    "date": "2026-07-10",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free low-impact beach exercise.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july10_walking",
+    "title": "Walking Club",
+    "date": "2026-07-10",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "Outside Ocean City Music Pier",
+    "desc": "All ages and fitness levels meet outside the Music Pier to walk the boardwalk. Weather permitting.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july10_jazz",
+    "title": "Joe Stefano and his Jazz Ensemble Band",
+    "date": "2026-07-10",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Free concert for veterans and guests; public welcome.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "music",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july12_masters_swim",
+    "title": "T. John Carey Master\u2019s Swim",
+    "date": "2026-07-12",
+    "start": "18:00",
+    "end": "20:00",
+    "venue": "Ocean / finish near 12th Street",
+    "desc": "Premier one-mile open-water swim with evening start. Spectator option.",
+    "category": "sports",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "race",
+      "beach"
+    ],
+    "links": [
+      [
+        "Race Events",
+        "https://www.ocnj.us/race-events"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july12_octc_allstars",
+    "title": "OCTC All-Stars with the OC Pops",
+    "date": "2026-07-12",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "Broadway hits and favorites with Ocean City Theatre Company performers and the OC Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july13_beach_yoga",
+    "title": "Beach Exercise: Yoga",
+    "date": "2026-07-13",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free beach yoga. Bring a towel and water. Hosted by Ocean City Aquatic & Fitness Center.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july13_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-13",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july13_tusk",
+    "title": "TUSK: Classic Fleetwood Mac Tribute",
+    "date": "2026-07-13",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Fleetwood Mac tribute concert.",
+    "category": "show",
+    "audience": [
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Etix",
+        "https://www.etix.com/ticket/v/16688/ocean-city-music-pier"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july13_drone_show",
+    "title": "America 250: Lights Over Ocean City Drone Show",
+    "date": "2026-07-13",
+    "start": "20:45",
+    "end": "21:15",
+    "venue": "Beach/Boardwalk south of 6th Street",
+    "desc": "Patriotic drone show over beach and boardwalk after dusk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "night",
+      "drone"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july14_beach_walk",
+    "title": "Beach Walk at Corson\u2019s Park Entrance",
+    "date": "2026-07-14",
+    "start": "09:00",
+    "end": "10:00",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Guided beach walk at the entrance to Corson\u2019s Park.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july14_funtastic",
+    "title": "Funtastic Tuesday",
+    "date": "2026-07-14",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, strolling characters, face painters and balloon sculptors.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "downtown"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july14_pirate",
+    "title": "How I Became a Pirate: The Musical",
+    "date": "2026-07-14",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Family musical adventure presented by OCTC.",
+    "category": "show",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 20,
+    "tags": [
+      "kids",
+      "indoor",
+      "ticketed"
+    ],
+    "links": [
+      [
+        "OCTC",
+        "https://www.oceancitytheatrecompany.com"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july14_lifeguard",
+    "title": "OCBP Women\u2019s Lifeguard Invitational Races",
+    "date": "2026-07-14",
+    "start": "18:30",
+    "end": "20:30",
+    "venue": "58th St. Beach",
+    "desc": "Women lifeguards from South Jersey compete in annual invitational races.",
+    "category": "sports",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "beach",
+      "sports"
+    ],
+    "links": [
+      [
+        "Race Events",
+        "https://www.ocnj.us/race-events"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july14_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-14",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_pilates",
+    "title": "Beach Exercise: Pilates",
+    "date": "2026-07-15",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free Pilates on the beach. Bring a towel and water.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_farmers",
+    "title": "Farmers Market + Crafters",
+    "date": "2026-07-15",
+    "start": "08:00",
+    "end": "12:00",
+    "venue": "Tabernacle Grounds, 6th & Asbury Ave.",
+    "desc": "Farmers market with crafters in the street.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "food",
+      "shopping"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_fries",
+    "title": "Wacky Wednesday: French Fry Sculpting",
+    "date": "2026-07-15",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Sculpt french fries into a masterpiece. Free, first 200 participants.",
+    "category": "contest",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_sandcastle_series",
+    "title": "34th St. Sandcastle Park Summer Entertainment Series",
+    "date": "2026-07-15",
+    "start": "18:30",
+    "end": "20:30",
+    "venue": "34th St. Sandcastle Park",
+    "desc": "Themed entertainment, live performers, face painters and balloon makers.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_beachwalk_pm",
+    "title": "Evening Beach Walk",
+    "date": "2026-07-15",
+    "start": "18:30",
+    "end": "19:30",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Evening guided beach walk at Corson\u2019s Park entrance.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july15_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-15",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july16_market_days",
+    "title": "Market Days on Asbury Avenue",
+    "date": "2026-07-16",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, face painters and balloon sculptors along Asbury Avenue.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "downtown",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july16_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-16",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july17_lowimpact",
+    "title": "Beach Exercise: Low Impact",
+    "date": "2026-07-17",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free low-impact beach exercise.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july17_walking",
+    "title": "Walking Club",
+    "date": "2026-07-17",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "Outside Ocean City Music Pier",
+    "desc": "All ages and fitness levels meet outside the Music Pier to walk the boardwalk. Weather permitting.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july19_vereens",
+    "title": "Ben Vereen: The Triumph of the Spirit with the OC Pops",
+    "date": "2026-07-19",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "Ben Vereen performs an evening of songs with the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july20_beach_yoga",
+    "title": "Beach Exercise: Yoga",
+    "date": "2026-07-20",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free beach yoga. Bring a towel and water. Hosted by Ocean City Aquatic & Fitness Center.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july20_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-20",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july20_collins",
+    "title": "Judy Collins & Richard Thompson in Concert",
+    "date": "2026-07-20",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Concert at the Ocean City Music Pier.",
+    "category": "show",
+    "audience": [
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Etix",
+        "https://www.etix.com/ticket/v/16688/ocean-city-music-pier"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july20_drone_show",
+    "title": "America 250: Lights Over Ocean City Drone Show",
+    "date": "2026-07-20",
+    "start": "20:45",
+    "end": "21:15",
+    "venue": "Beach/Boardwalk south of 6th Street",
+    "desc": "Patriotic drone show over beach and boardwalk after dusk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "night",
+      "drone"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july21_beach_walk",
+    "title": "Beach Walk at Corson\u2019s Park Entrance",
+    "date": "2026-07-21",
+    "start": "09:00",
+    "end": "10:00",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Guided beach walk at the entrance to Corson\u2019s Park.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july21_funtastic",
+    "title": "Funtastic Tuesday",
+    "date": "2026-07-21",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, strolling characters, face painters and balloon sculptors.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "downtown"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july21_berenstain",
+    "title": "The Berenstain Bears: The Musical",
+    "date": "2026-07-21",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Family musical based on classic Berenstain Bears stories.",
+    "category": "show",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 20,
+    "tags": [
+      "kids",
+      "indoor",
+      "ticketed"
+    ],
+    "links": [
+      [
+        "OCTC",
+        "https://www.oceancitytheatrecompany.com"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july21_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-21",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_pilates",
+    "title": "Beach Exercise: Pilates",
+    "date": "2026-07-22",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free Pilates on the beach. Bring a towel and water.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_farmers",
+    "title": "Farmers Market + Crafters",
+    "date": "2026-07-22",
+    "start": "08:00",
+    "end": "12:00",
+    "venue": "Tabernacle Grounds, 6th & Asbury Ave.",
+    "desc": "Farmers market with crafters in the street.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "food",
+      "shopping"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_christmas",
+    "title": "Wacky Wednesday: Christmas in July",
+    "date": "2026-07-22",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Special craft, Santa visit and Christmas Music Bingo.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_sandcastle_series",
+    "title": "34th St. Sandcastle Park Summer Entertainment Series",
+    "date": "2026-07-22",
+    "start": "18:30",
+    "end": "20:30",
+    "venue": "34th St. Sandcastle Park",
+    "desc": "Themed entertainment, live performers, face painters and balloon makers.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_beachwalk_pm",
+    "title": "Evening Beach Walk",
+    "date": "2026-07-22",
+    "start": "18:30",
+    "end": "19:30",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Evening guided beach walk at Corson\u2019s Park entrance.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-22",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july22_jersey_tenors",
+    "title": "The Jersey Tenors",
+    "date": "2026-07-22",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "Opera/rock mash-up sensation sponsored by Friends of the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july23_market_days",
+    "title": "Market Days on Asbury Avenue",
+    "date": "2026-07-23",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, face painters and balloon sculptors along Asbury Avenue.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "downtown",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july23_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-23",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july24_lowimpact",
+    "title": "Beach Exercise: Low Impact",
+    "date": "2026-07-24",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free low-impact beach exercise.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july24_walking",
+    "title": "Walking Club",
+    "date": "2026-07-24",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "Outside Ocean City Music Pier",
+    "desc": "All ages and fitness levels meet outside the Music Pier to walk the boardwalk. Weather permitting.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july25_niv",
+    "title": "Night in Venice Celebration",
+    "date": "2026-07-25",
+    "start": "18:30",
+    "end": "22:00",
+    "venue": "Bayfront route: Longport Bridge to Tennessee Ave.",
+    "desc": "Large decorated boat parade along the bay with fireworks after the parade.",
+    "category": "signature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "fireworks",
+      "signature"
+    ],
+    "links": [
+      [
+        "Night in Venice",
+        "https://www.ocnj.us/NIV"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july26_60s",
+    "title": "Feelin\u2019 Groovy Hits of the 60s",
+    "date": "2026-07-26",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "Vince League show featuring hits of the 1960s.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july27_beach_yoga",
+    "title": "Beach Exercise: Yoga",
+    "date": "2026-07-27",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free beach yoga. Bring a towel and water. Hosted by Ocean City Aquatic & Fitness Center.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july27_hornsby",
+    "title": "Bruce Hornsby in Concert",
+    "date": "2026-07-27",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Concert at the Ocean City Music Pier.",
+    "category": "show",
+    "audience": [
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Etix",
+        "https://www.etix.com/ticket/v/16688/ocean-city-music-pier"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july27_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-27",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july27_drone_show",
+    "title": "America 250: Lights Over Ocean City Drone Show",
+    "date": "2026-07-27",
+    "start": "20:45",
+    "end": "21:15",
+    "venue": "Beach/Boardwalk south of 6th Street",
+    "desc": "Patriotic drone show over beach and boardwalk after dusk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "night",
+      "drone"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july28_beach_walk",
+    "title": "Beach Walk at Corson\u2019s Park Entrance",
+    "date": "2026-07-28",
+    "start": "09:00",
+    "end": "10:00",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Guided beach walk at the entrance to Corson\u2019s Park.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july28_funtastic",
+    "title": "Funtastic Tuesday",
+    "date": "2026-07-28",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, strolling characters, face painters and balloon sculptors.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "downtown"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july28_junie",
+    "title": "Junie B. Jones: The Musical",
+    "date": "2026-07-28",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Family musical based on the Junie B. Jones books.",
+    "category": "show",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 20,
+    "tags": [
+      "kids",
+      "indoor",
+      "ticketed"
+    ],
+    "links": [
+      [
+        "OCTC",
+        "https://www.oceancitytheatrecompany.com"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july28_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-28",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_pilates",
+    "title": "Beach Exercise: Pilates",
+    "date": "2026-07-29",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free Pilates on the beach. Bring a towel and water.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_farmers",
+    "title": "Farmers Market + Crafters",
+    "date": "2026-07-29",
+    "start": "08:00",
+    "end": "12:00",
+    "venue": "Tabernacle Grounds, 6th & Asbury Ave.",
+    "desc": "Farmers market with crafters in the street.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "food",
+      "shopping"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_pretzel",
+    "title": "Wacky Wednesday: Soft Pretzel Sculpting",
+    "date": "2026-07-29",
+    "start": "10:30",
+    "end": "11:30",
+    "venue": "Music Pier",
+    "desc": "Create a masterpiece from a soft pretzel. Free, limited participants.",
+    "category": "contest",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_sandcastle_series",
+    "title": "34th St. Sandcastle Park Summer Entertainment Series",
+    "date": "2026-07-29",
+    "start": "18:30",
+    "end": "20:30",
+    "venue": "34th St. Sandcastle Park",
+    "desc": "Themed entertainment, live performers, face painters and balloon makers.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "kids",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_beachwalk_pm",
+    "title": "Evening Beach Walk",
+    "date": "2026-07-29",
+    "start": "18:30",
+    "end": "19:30",
+    "venue": "59th St. & Central Ave.",
+    "desc": "Evening guided beach walk at Corson\u2019s Park entrance.",
+    "category": "nature",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "nature",
+      "evening"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_family_night",
+    "title": "Family Nights on the Boardwalk",
+    "date": "2026-07-29",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Jugglers, music, characters and more on the boardwalk.",
+    "category": "family",
+    "audience": [
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july29_lea",
+    "title": "Lea Salonga with the OC Pops",
+    "date": "2026-07-29",
+    "start": "19:30",
+    "end": "21:30",
+    "venue": "Music Pier",
+    "desc": "Award-winning singer Lea Salonga performs with the Ocean City Pops.",
+    "category": "show",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 45,
+    "tags": [
+      "music",
+      "ticketed",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Box Office",
+        "https://oceancityvacation.com/boxoffice"
+      ],
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july30_market_days",
+    "title": "Market Days on Asbury Avenue",
+    "date": "2026-07-30",
+    "start": "10:00",
+    "end": "13:00",
+    "venue": "Asbury Avenue",
+    "desc": "Entertainment, face painters and balloon sculptors along Asbury Avenue.",
+    "category": "market",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "downtown",
+      "kids"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july30_surf_art",
+    "title": "Art of Surfing",
+    "date": "2026-07-30",
+    "start": "18:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Free family event featuring original surf art, live music and artist meet-and-greets. Continues July 31 and Aug. 1.",
+    "category": "art",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "art",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july30_pier_open",
+    "title": "Ocean City Fishing Pier Open House",
+    "date": "2026-07-30",
+    "start": "18:00",
+    "end": "20:00",
+    "venue": "14th St. & Boardwalk",
+    "desc": "Rare public tour of Ocean City Fishing Club pier and clubhouse. Donations accepted.",
+    "category": "openhouse",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "photos",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july30_mummers",
+    "title": "Mummers Night",
+    "date": "2026-07-30",
+    "start": "19:00",
+    "end": "21:00",
+    "venue": "Boardwalk, 6th\u201314th Streets",
+    "desc": "Mummers strut on the boardwalk.",
+    "category": "show",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "boardwalk",
+      "music"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july31_lowimpact",
+    "title": "Beach Exercise: Low Impact",
+    "date": "2026-07-31",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "6th Street Beach Volleyball Courts",
+    "desc": "Free low-impact beach exercise.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "beach"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july31_walking",
+    "title": "Walking Club",
+    "date": "2026-07-31",
+    "start": "08:00",
+    "end": "09:00",
+    "venue": "Outside Ocean City Music Pier",
+    "desc": "All ages and fitness levels meet outside the Music Pier to walk the boardwalk. Weather permitting.",
+    "category": "fitness",
+    "audience": [
+      "solo",
+      "family"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "morning",
+      "boardwalk"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  },
+  {
+    "id": "july31_surf_art",
+    "title": "Art of Surfing",
+    "date": "2026-07-31",
+    "start": "12:00",
+    "end": "21:00",
+    "venue": "Music Pier",
+    "desc": "Free family event featuring original surf art, live music and artist meet-and-greets.",
+    "category": "art",
+    "audience": [
+      "family",
+      "solo"
+    ],
+    "weather": [
+      "sunny",
+      "cloudy",
+      "rainy"
+    ],
+    "cost": 0,
+    "tags": [
+      "free",
+      "art",
+      "indoor"
+    ],
+    "links": [
+      [
+        "Calendar",
+        "https://oceancityvacation.com/page/2/?post_type=tribe_events&eventDisplay=month&eventDate=2026-07"
+      ]
+    ],
+    "source": "Official 2026 OCNJ Calendar"
+  }
+]

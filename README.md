@@ -28,3 +28,19 @@ Future upgrade path: Supabase/Firebase admin table for live shared edits, user a
 ## Hours behavior
 
 The planner no longer displays warning banners. Instead, it uses open/close/buffer values to avoid choosing poor activity times in the first place. Important activities use a larger close buffer so they are not suggested too close to closing.
+
+
+## V7 notes
+- `data/hours.json` now supports `allDay: true` / `hoursMode: "24h"` for area-level activities like Atlantic City.
+- The planner no longer renders warning banners. It auto-adjusts or swaps activities that do not fit the selected weather, mode, or editable hours window.
+- Beach tag links now point to the official OCNJ online store: https://store.ocnj.us/.
+- The admin dashboard can edit/export 24-hour flags, but GitHub Pages cannot write directly to the repo without a backend or GitHub API/OAuth flow.
+
+
+## V8 event engine
+- Added `data/events.json` with July 2026 OCNJ events from the official 2026 calendar PDF and Ocean City Vacation July calendar.
+- The home page now has a **2026 Event Suggestions & Quick Swaps** dashboard under the planner.
+- Set `Trip dates`, choose a day, then event suggestions filter to that exact date.
+- Use **+ Add event** to append an event to the selected day or **Swap slot** to replace an existing block.
+- Events are also converted into planner activities at runtime, so they can be saved in localStorage and printed.
+- This is static GitHub Pages friendly; update `data/events.json` and push changes for public updates.

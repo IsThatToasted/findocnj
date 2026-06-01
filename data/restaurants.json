@@ -1,10 +1,110 @@
 [
- {"id":"manco","name":"Manco & Manco Pizza","type":"pizza","desc":"Kept as a Google Maps option only because the direct site has been unreliable.","cost":"$","links":[["Google Maps","https://www.google.com/maps/search/Manco+%26+Manco+Pizza+Ocean+City+NJ"]]},
- {"id":"piccini","name":"Piccini Wood Fired Brick Oven Pizza","type":"pizza","desc":"Good alternate pizza option when boardwalk lines are too much.","cost":"$$","links":[["Google Maps","https://www.google.com/maps/search/Piccini+Wood+Fired+Brick+Oven+Pizza+Ocean+City+NJ"]]},
- {"id":"preps","name":"Prep's Pizzeria","type":"pizza","desc":"Classic Ocean City pizza/Italian option near the boardwalk.","cost":"$","links":[["Google Maps","https://www.google.com/maps/search/Prep's+Pizzeria+Ocean+City+NJ"]]},
- {"id":"ready","name":"Ready's Coffee Shop","type":"breakfast","desc":"Classic breakfast/lunch diner-style stop.","cost":"$","links":[["Google Maps","https://www.google.com/maps/search/Ready's+Coffee+Shop+Ocean+City+NJ"]]},
- {"id":"jonpattys","name":"Jon & Patty's","type":"breakfast","desc":"Popular breakfast/brunch/cafe option with a downtown feel.","cost":"$$","links":[["Google Maps","https://www.google.com/maps/search/Jon+%26+Patty's+Ocean+City+NJ"]]},
- {"id":"crabtrap","name":"The Crab Trap","type":"seafood","desc":"Somers Point seafood classic; best when kids can handle a short drive.","cost":"$$","links":[["Website","https://thecrabtrap.com/"],["Google Maps","https://www.google.com/maps/search/The+Crab+Trap+Somers+Point+NJ"]]},
- {"id":"kohr","name":"Kohr Bros Frozen Custard","type":"treats","desc":"Easy boardwalk dessert stop.","cost":"$","links":[["Google Maps","https://www.google.com/maps/search/Kohr+Bros+Ocean+City+NJ"]]},
- {"id":"browns","name":"Brown's Restaurant","type":"breakfast","desc":"Boardwalk breakfast/donut classic near the north end.","cost":"$","links":[["Google Maps","https://www.google.com/maps/search/Brown's+Restaurant+Ocean+City+NJ"]]}
+  {
+    "id": "manco",
+    "name": "Manco & Manco Pizza",
+    "type": "pizza",
+    "desc": "Kept as a Google Maps option only because the direct site has been unreliable.",
+    "cost": "$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Manco+%26+Manco+Pizza+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "piccini",
+    "name": "Piccini Wood Fired Brick Oven Pizza",
+    "type": "pizza",
+    "desc": "Good alternate pizza option when boardwalk lines are too much.",
+    "cost": "$$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Piccini+Wood+Fired+Brick+Oven+Pizza+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "preps",
+    "name": "Prep's Pizzeria",
+    "type": "pizza",
+    "desc": "Classic Ocean City pizza/Italian option near the boardwalk.",
+    "cost": "$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Prep's+Pizzeria+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "ready",
+    "name": "Ready's Coffee Shop",
+    "type": "breakfast",
+    "desc": "Classic breakfast/lunch diner-style stop.",
+    "cost": "$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Ready's+Coffee+Shop+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "jonpattys",
+    "name": "Jon & Patty's",
+    "type": "breakfast",
+    "desc": "Popular breakfast/brunch/cafe option with a downtown feel.",
+    "cost": "$$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Jon+%26+Patty's+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "crabtrap",
+    "name": "The Crab Trap",
+    "type": "seafood",
+    "desc": "Somers Point seafood classic; best when kids can handle a short drive.",
+    "cost": "$$",
+    "links": [
+      [
+        "Website",
+        "https://thecrabtrap.com/"
+      ],
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/The+Crab+Trap+Somers+Point+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "kohr",
+    "name": "Kohr Bros Frozen Custard",
+    "type": "treats",
+    "desc": "Easy boardwalk dessert stop.",
+    "cost": "$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Kohr+Bros+Ocean+City+NJ"
+      ]
+    ]
+  },
+  {
+    "id": "browns",
+    "name": "Brown's Restaurant",
+    "type": "breakfast",
+    "desc": "Boardwalk breakfast/donut classic near the north end.",
+    "cost": "$",
+    "links": [
+      [
+        "Google Maps",
+        "https://www.google.com/maps/search/Brown's+Restaurant+Ocean+City+NJ"
+      ]
+    ]
+  }
 ]
