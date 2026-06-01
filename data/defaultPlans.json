@@ -1,22 +1,713 @@
 {
- "family":{
-  "sunny":[
-   [{"time":"09:30","duration":60,"activity":"quiet_beach_sunrise"},{"time":"11:15","duration":60,"activity":"rainy_restaurant"},{"time":"13:00","duration":90,"activity":"beach_morning"},{"time":"15:00","duration":120,"activity":"downtown"},{"time":"18:30","duration":120,"activity":"playland"}],
-   [{"time":"07:45","duration":75,"activity":"boardwalk_bikes"},{"time":"10:45","duration":105,"activity":"dolphin_cruise"},{"time":"12:45","duration":150,"activity":"rainy_restaurant"},{"time":"16:00","duration":75,"activity":"mini_golf"},{"time":"18:00","duration":90,"activity":"rainy_restaurant"}],
-   [{"time":"09:15","duration":45,"activity":"downtown"},{"time":"10:00","duration":150,"activity":"zoo"},{"time":"13:30","duration":90,"activity":"cape_lighthouse"},{"time":"16:00","duration":90,"activity":"downtown"}],
-   [{"time":"08:30","duration":75,"activity":"corsons"},{"time":"10:30","duration":90,"activity":"beach_morning"},{"time":"12:30","duration":180,"activity":"rainy_restaurant"},{"time":"16:00","duration":60,"activity":"arcade"},{"time":"18:30","duration":120,"activity":"music_pier"}],
-   [{"time":"10:00","duration":75,"activity":"lucy"},{"time":"12:00","duration":120,"activity":"rainy_restaurant"},{"time":"16:00","duration":75,"activity":"mini_golf"},{"time":"18:30","duration":120,"activity":"playland"}]
-  ],
-  "cloudy":[],"rainy":[]
- },
- "solo":{
-  "sunny":[
-   [{"time":"06:00","duration":60,"activity":"quiet_beach_sunrise"},{"time":"08:00","duration":75,"activity":"boardwalk_bikes"},{"time":"11:00","duration":120,"activity":"beach_morning"},{"time":"18:30","duration":120,"activity":"sunset_cruise"},{"time":"21:00","duration":180,"activity":"ac_evening"}],
-   [{"time":"08:30","duration":75,"activity":"corsons"},{"time":"11:00","duration":105,"activity":"dolphin_cruise"},{"time":"15:30","duration":90,"activity":"downtown"},{"time":"19:00","duration":75,"activity":"mini_golf"}],
-   [{"time":"10:00","duration":150,"activity":"zoo"},{"time":"13:30","duration":90,"activity":"cape_lighthouse"},{"time":"18:30","duration":120,"activity":"sunset_cruise"}],
-   [{"time":"09:00","duration":120,"activity":"beach_morning"},{"time":"13:00","duration":90,"activity":"rainy_restaurant"},{"time":"16:00","duration":90,"activity":"downtown"},{"time":"19:00","duration":120,"activity":"music_pier"}],
-   [{"time":"10:00","duration":75,"activity":"lucy"},{"time":"12:30","duration":180,"activity":"ac_evening"},{"time":"18:30","duration":120,"activity":"playland"}]
-  ],
-  "cloudy":[],"rainy":[]
- }
+  "family": {
+    "sunny": [
+      [
+        {
+          "time": "09:30",
+          "duration": 60,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "11:15",
+          "duration": 60,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "13:00",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "15:15",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ],
+      [
+        {
+          "time": "07:45",
+          "duration": 75,
+          "activity": "boardwalk_bikes"
+        },
+        {
+          "time": "10:45",
+          "duration": 105,
+          "activity": "dolphin_cruise"
+        },
+        {
+          "time": "12:45",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        },
+        {
+          "time": "18:00",
+          "duration": 75,
+          "activity": "food_pizza_alt"
+        }
+      ],
+      [
+        {
+          "time": "09:15",
+          "duration": 45,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:30",
+          "duration": 90,
+          "activity": "cape_lighthouse"
+        },
+        {
+          "time": "16:00",
+          "duration": 90,
+          "activity": "downtown"
+        }
+      ],
+      [
+        {
+          "time": "08:30",
+          "duration": 75,
+          "activity": "corsons"
+        },
+        {
+          "time": "10:30",
+          "duration": 90,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "12:30",
+          "duration": 180,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:00",
+          "duration": 60,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "15:00",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ]
+    ],
+    "cloudy": [
+      [
+        {
+          "time": "09:30",
+          "duration": 75,
+          "activity": "boardwalk_bikes"
+        },
+        {
+          "time": "11:15",
+          "duration": 60,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "13:00",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "15:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ],
+      [
+        {
+          "time": "09:00",
+          "duration": 90,
+          "activity": "corsons"
+        },
+        {
+          "time": "11:00",
+          "duration": 105,
+          "activity": "dolphin_cruise"
+        },
+        {
+          "time": "13:00",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        },
+        {
+          "time": "18:00",
+          "duration": 75,
+          "activity": "food_pizza_alt"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:30",
+          "duration": 90,
+          "activity": "cape_lighthouse"
+        },
+        {
+          "time": "16:00",
+          "duration": 90,
+          "activity": "downtown"
+        }
+      ],
+      [
+        {
+          "time": "09:30",
+          "duration": 90,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "11:30",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "13:15",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:00",
+          "duration": 60,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "15:30",
+          "duration": 75,
+          "activity": "mini_golf"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ]
+    ],
+    "rainy": [
+      [
+        {
+          "time": "10:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "11:45",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "13:30",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:00",
+          "duration": 75,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "12:45",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "14:30",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "17:30",
+          "duration": 75,
+          "activity": "food_pizza_alt"
+        },
+        {
+          "time": "19:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "15:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "13:45",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:15",
+          "duration": 75,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "14:00",
+          "duration": 120,
+          "activity": "pool_reset"
+        },
+        {
+          "time": "16:30",
+          "duration": 75,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ]
+    ]
+  },
+  "solo": {
+    "sunny": [
+      [
+        {
+          "time": "06:00",
+          "duration": 60,
+          "activity": "quiet_beach_sunrise"
+        },
+        {
+          "time": "08:00",
+          "duration": 75,
+          "activity": "boardwalk_bikes"
+        },
+        {
+          "time": "11:00",
+          "duration": 120,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "sunset_cruise"
+        },
+        {
+          "time": "21:00",
+          "duration": 180,
+          "activity": "ac_evening"
+        }
+      ],
+      [
+        {
+          "time": "08:30",
+          "duration": 75,
+          "activity": "corsons"
+        },
+        {
+          "time": "11:00",
+          "duration": 105,
+          "activity": "dolphin_cruise"
+        },
+        {
+          "time": "15:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:30",
+          "duration": 90,
+          "activity": "cape_lighthouse"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "sunset_cruise"
+        }
+      ],
+      [
+        {
+          "time": "09:00",
+          "duration": 120,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "13:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "16:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:30",
+          "duration": 180,
+          "activity": "ac_evening"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ]
+    ],
+    "cloudy": [
+      [
+        {
+          "time": "06:30",
+          "duration": 60,
+          "activity": "quiet_beach_sunrise"
+        },
+        {
+          "time": "08:00",
+          "duration": 75,
+          "activity": "boardwalk_bikes"
+        },
+        {
+          "time": "11:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "sunset_cruise"
+        },
+        {
+          "time": "21:00",
+          "duration": 180,
+          "activity": "ac_evening"
+        }
+      ],
+      [
+        {
+          "time": "08:30",
+          "duration": 75,
+          "activity": "corsons"
+        },
+        {
+          "time": "11:00",
+          "duration": 105,
+          "activity": "dolphin_cruise"
+        },
+        {
+          "time": "15:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:30",
+          "duration": 90,
+          "activity": "cape_lighthouse"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "sunset_cruise"
+        }
+      ],
+      [
+        {
+          "time": "09:00",
+          "duration": 120,
+          "activity": "beach_morning"
+        },
+        {
+          "time": "13:00",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "16:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:30",
+          "duration": 180,
+          "activity": "ac_evening"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "playland"
+        }
+      ]
+    ],
+    "rainy": [
+      [
+        {
+          "time": "10:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "15:00",
+          "duration": 75,
+          "activity": "arcade"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        },
+        {
+          "time": "21:00",
+          "duration": 180,
+          "activity": "ac_evening"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "15:30",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 75,
+          "activity": "mini_golf"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 150,
+          "activity": "zoo"
+        },
+        {
+          "time": "13:00",
+          "duration": 90,
+          "activity": "quick_lunch"
+        },
+        {
+          "time": "16:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "19:00",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 90,
+          "activity": "downtown"
+        },
+        {
+          "time": "12:00",
+          "duration": 90,
+          "activity": "rainy_restaurant"
+        },
+        {
+          "time": "15:00",
+          "duration": 75,
+          "activity": "arcade"
+        },
+        {
+          "time": "19:00",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ],
+      [
+        {
+          "time": "10:00",
+          "duration": 75,
+          "activity": "lucy"
+        },
+        {
+          "time": "12:30",
+          "duration": 180,
+          "activity": "ac_evening"
+        },
+        {
+          "time": "18:30",
+          "duration": 120,
+          "activity": "music_pier"
+        }
+      ]
+    ]
+  }
 }
